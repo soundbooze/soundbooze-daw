@@ -5,7 +5,7 @@ apt-get install linux-image-rt-amd64
 apt-get install htop
 ```
 
-### manual kernel build (reqs)
+### manual kernel build (patch+reqs)
 
 ```
  apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
