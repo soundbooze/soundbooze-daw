@@ -149,10 +149,6 @@ apt-get install kmidimon midicsv
 - https://github.com/brummer10/GxVBassPreAmp.lv2
 - https://github.com/ssj71/rkrlv2/tree/master/src
 -
-### manual compile (non-pkg)
-
-- https://github.com/calf-studio-gear/calf
--
 
 ## Connections
 
