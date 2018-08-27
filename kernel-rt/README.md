@@ -25,7 +25,7 @@ make install
 
 ## Disable unused modules / drivers
 
-- disable all network devices
+- disable all network devices -> except UNIX_SOCKET
 - disable unused filesystems
 - disable debug/tracer/profiler
 - disable virtualization
