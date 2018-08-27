@@ -11,6 +11,8 @@ apt-get install htop
  apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 ```
 
+> init.sh
+
 ## Priority
 
 - https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
