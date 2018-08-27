@@ -268,8 +268,8 @@ htop
 
 - disable all network devices
 - disable unused filesystems
-- disable debug/tracer
--
+- disable debug/tracer/profiler
+- disable virtualization
  
 # FIRMWARE
 
