@@ -4,7 +4,7 @@
 apt-get install jackd2 pulseaudio qjackctl pulseaudio-module-jack jack-capture
 ```
 
-![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-misc/master/debian-rt/bingung-not.png "Home")
+![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/bingung-not.png "Home")
 
 ```
 JACK
