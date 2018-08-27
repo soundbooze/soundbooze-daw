@@ -15,8 +15,8 @@ apt-get install htop
 
 ```
 make menuconfig
-make bzImage
-make modules
+make -j4 bzImage
+make -j4 modules
 make modules_install
 make install
 ```
