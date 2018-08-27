@@ -20,13 +20,18 @@ make modules_install
 make install
 ```
 
-## Priority
-
-- https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
-
 ## Disable unused modules / drivers
 
 - disable all network devices
 - disable unused filesystems
 - disable debug/tracer/profiler
 - disable virtualization
+
+## Priority
+
+- https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
+
+## Test
+
+- https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
+
