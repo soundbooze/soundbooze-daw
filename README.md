@@ -101,6 +101,7 @@ apt-get install mustang-plug wmaker
 
 ```
 apt-get install vlc simplescreenrecorder
+apt-get install vlc-plugin-jack
 apt-get install openshot lives
 ```
 
