@@ -13,6 +13,12 @@ apt-get install htop
 
 > init.sh
 
+```
+make menuconfig
+make bzImage
+
+```
+
 ## Priority
 
 - https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
