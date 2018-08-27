@@ -24,7 +24,7 @@ make install
 
 - https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
 
-## Disable unused modules / drivers (KERNEL)
+## Disable unused modules / drivers
 
 - disable all network devices
 - disable unused filesystems
