@@ -1,0 +1,7 @@
+ apt-get install libsigc++-2.0-dev libzita-convolver-dev libzita-resampler-dev gtk2-engines libwebkitgtk-1.0 intltool
+ apt-get install gperf fonts-roboto libavahi-gobject-dev 
+ apt-get install libeigen3-dev libbluetooth-dev
+
+./waf configure --ladspa --new-ladspa --mod-lv2 
+./waf build
+./waf install

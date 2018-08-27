@@ -1,0 +1,10 @@
+apt-get install qt5-qmake libqt5*
+
+cd /usr/lib/x86_64-linux-gnu/qt5/bin/
+ln -sf qmake qmake-qt5
+
+export PATH=$PATH:`pwd`
+
+./autogen.sh
+./configure --disable-portaudio --disable-dbus
+make && make install

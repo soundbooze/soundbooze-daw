@@ -1,0 +1,4 @@
+./waf configure --alsa=yes --firewire=no --freebob=no --iio=no --portaudio=no --winmme=no --celt=no --opus=no --doxygen=no --ports-per-application=96
+
+./waf build 
+./waf install

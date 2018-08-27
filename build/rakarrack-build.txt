@@ -1,0 +1,13 @@
+ 
+ apt-get install libfltk1.3-dev libxpm-dev
+
+ git clone git://rakarrack.git.sourceforge.net/gitroot/rakarrack/rakarrack
+
+./autogen.sh
+./configure
+make
+make install
+
+
+// waveshaper.C +452
+// delayline.C +396

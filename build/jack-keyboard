@@ -1,0 +1,7 @@
+http://jack-keyboard.sourceforge.net/
+
+apt-get install liblash-compat-dev
+
+make configure
+make all
+make install
