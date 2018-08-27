@@ -16,6 +16,7 @@ apt-get install htop
 ```
 make menuconfig
 make bzImage
+make modules
 make modules_install
 make install
 ```
