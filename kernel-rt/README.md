@@ -27,7 +27,7 @@ make install
 ## Disable unused modules / drivers
 
 - disable all network devices -> except UNIX_SOCKET (*)
-- disable unused filesystems -> except ext2 ext4
+- disable unused filesystems -> except ext2(M) ext4 -- CRC32(*)
 - disable debug/tracer/profiler
 - disable virtualization
 
