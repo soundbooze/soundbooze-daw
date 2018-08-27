@@ -20,7 +20,7 @@ make -j4 modules
 make modules_install
 make install
 
-update-initramfs -k 4.9.115-rt93 -u
+## update-initramfs -k 4.9.115-rt93 -u
 /usr/sbin/update-grub2 -> update-grub
 ```
 
