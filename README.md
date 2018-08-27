@@ -240,36 +240,12 @@ headerbar.default-decoration button.titlebutton {
 }
 ```
 
-# RT Linux
-
-```
-linux-image-rt-amd64 
-htop
-```
-
-### manual kernel build (reqs)
-
-```
- apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
-```
-
-## Priority
-
-- https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
-
 ## Disable Services
 
 ```
  systemctl disable polkit | iio-sensor-proxy | upower
  systemctl stop polkit | iio-sensor-proxy | upower
  ```
- 
-## Disable unused modules / drivers (KERNEL)
-
-- disable all network devices
-- disable unused filesystems
-- disable debug/tracer/profiler
-- disable virtualization
  
 # FIRMWARE
 
