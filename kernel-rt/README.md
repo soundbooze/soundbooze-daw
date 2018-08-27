@@ -19,6 +19,8 @@ make -j4 bzImage
 make -j4 modules
 make modules_install
 make install
+
+/usr/sbin/update-grub2 -> update-grub
 ```
 
 ## Disable unused modules / drivers
