@@ -2,5 +2,6 @@ git clone git://anongit.freedesktop.org/pulseaudio/pulseaudio
 
 apt-get install speex
 
-./autogen.sh --without-caps --disable-ipv6 --disable-openssl --disable-bluez5 --disable-avahi -disable-oss-output --disable-oss-wrapper --disable-nls--disable-default-build-tests
+./autogen.sh --without-caps --disable-ipv6 --disable-openssl --disable-bluez5 --disable-avahi -disable-oss-output --disable-oss-wrapper --disable-nls--disable-default-build-tests --with-speex
+
  make && make install 
