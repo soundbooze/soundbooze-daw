@@ -1,0 +1,5 @@
+https://bitbucket.org/piorekf/plug/wiki/Home
+
+$ qmake plug.pro
+$ make
+$ make install
