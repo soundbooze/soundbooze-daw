@@ -1,5 +1,5 @@
 #!/bin/sh
-pgrep $1 | awk -v a="renice -n 20 -p " '{ print a $1 }' >> foo.sh
+pgrep $1 | awk -v a="renice -n -19 -p " '{ print a $1 }' >> foo.sh
 pgrep $1 | awk -v a="chrt -f -p 99 " '{ print a $1 }' >> foo.sh
 
 chmod 755 foo.sh
