@@ -1,3 +1,12 @@
 http://kokkinizita.linuxaudio.org/linuxaudio/downloads/jack_delay-0.4.2.tar.bz2
 
 make
+
+# qjackctl - 
+
+Once you have closed the loop you have to:
+
+Launch jackd with the configuration you want to test.
+Launch jack_delay.
+Make the appropriate connections between your jack ports so the loop is closed.
+Adjust the playback and capture levels in your mixer.
