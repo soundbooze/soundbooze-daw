@@ -3,4 +3,6 @@ https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git
 
 make all
 make install
+
+# optional (single build)
 make cyclictest
