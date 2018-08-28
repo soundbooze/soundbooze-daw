@@ -1,0 +1,4 @@
+git clone git://anongit.freedesktop.org/pulseaudio/pulseaudio
+
+./autogen.sh --without-caps --disable-ipv6 --disable-openssl --disable-bluez5 --disable-avahi -disable-oss-output --disable-oss-wrapper --disable-nls--disable-default-build-tests
+ make && make install 
