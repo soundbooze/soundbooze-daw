@@ -1,0 +1,30 @@
+export PRUNEPATHS="/tmp /var/tmp /proc /run"
+export LESSHISTFILE=/dev/null
+export HISTFILE=/dev/null
+export HISTFILESIZE=0
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias dir='dir --color'
+alias ls='ls -lh --color'
+alias df='df -h'
+alias free='free -m'
+
+alias sysinfo='procinfo && iostat && vmstat && mpstat -P ALL && pidstat'
+alias sar='sar -n DEV 1'
+alias df='df -h'
+alias free='free -m'
+alias dropmem='cd && rm -rf .rnd .viminfo .cache .config .debug .local && sync; echo 1 > /proc/sys/vm/drop_caches && sync; echo 2 > /proc/sys/vm/drop_caches && sync; echo 3 > /proc/sys/vm/drop_caches'
+alias uname='uname -ap'
+alias vim='vim -i NONE'
+
+alias disable-trace='echo 0 > /sys/kernel/debug/tracing/tracing_on'
+
+if [ -f `which powerline-daemon` ]; then
+  powerline-daemon -q
+  POWERLINE_BASH_CONTINUATION=1
+  POWERLINE_BASH_SELECT=1
+  . /usr/share/powerline/bindings/bash/powerline.sh
+fi
