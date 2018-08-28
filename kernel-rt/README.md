@@ -42,3 +42,9 @@ make install
 
 - https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
 
+## Blacklist
+
+> cat /etc/modprobe.d/snd-hda-intel.conf 
+> blacklist snd_hda_intel
+
+
