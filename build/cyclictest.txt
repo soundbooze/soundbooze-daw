@@ -1,0 +1,6 @@
+https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/rt-tests#compile-and-install
+https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git
+
+make all
+make install
+make cyclictest
