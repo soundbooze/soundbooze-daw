@@ -1,0 +1,5 @@
+load-module module-native-protocol-unix
+load-module module-jack-sink channels=2
+load-module module-jack-source channels=2
+set-default-sink jack_out
+set-default-source jack_in
