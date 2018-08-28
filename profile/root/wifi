@@ -1,0 +1,6 @@
+#!/bin/sh
+
+wpa_passphrase SSID pass > key
+wpa_supplicant -B -c key -i wlp3s0b1
+dhclient wlp3s0b1
+rm -f key
