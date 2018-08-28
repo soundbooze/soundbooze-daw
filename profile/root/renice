@@ -1,9 +1,7 @@
 #!/bin/sh
-pgrep ardour | awk -v a="renice -n -19 -p " '{ print a $1 }' > foo.sh
-pgrep jack | awk -v a="renice -n -19 -p " '{ print a $1 }' >> foo.sh
-pgrep guitarix | awk -v a="renice -n -19 -p " '{ print a $1 }' >> foo.sh
-pgrep calfjackhost | awk -v a="renice -n -19 -p " '{ print a $1 }' >> foo.sh
-pgrep powerline | awk -v a="renice -n 20 -p " '{ print a $1 }' >> foo.sh
+pgrep $1 | awk -v a="renice -n 20 -p " '{ print a $1 }' >> foo.sh
+pgrep $1 | awk -v a="chrt -f -p 99 " '{ print a $1 }' >> foo.sh
+
 chmod 755 foo.sh
 ./foo.sh
 rm -f foo.sh
