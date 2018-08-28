@@ -44,7 +44,7 @@ make install
 
 ## Blacklist
 
-> cat /etc/modprobe.d/snd-hda-intel.conf 
+- cat /etc/modprobe.d/snd-hda-intel.conf 
 > blacklist snd_hda_intel
 
 
