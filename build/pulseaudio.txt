@@ -2,6 +2,7 @@ git clone git://anongit.freedesktop.org/pulseaudio/pulseaudio
 
 apt-get install speex
 apt-get install libspeex-dev
+apt-get install libspeexdsp-dev
 
 ./autogen.sh --without-caps --disable-ipv6 --disable-openssl --disable-bluez5 --disable-avahi -disable-oss-output --disable-oss-wrapper --disable-nls--disable-default-build-tests --with-speex
 
