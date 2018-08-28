@@ -31,6 +31,8 @@ make install
 - disable debug/tracer/profiler
 - disable virtualization
 
+> rmmod -f snd_hda_intel
+
 ## Priority
 
 - https://taste.tuxfamily.org/wiki/index.php?title=Tricks_and_tools_for_PREEMPT-RT_kernel
