@@ -10,3 +10,4 @@ make cyclictest
 https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/cyclictest/start
 https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/cyclictest/tracing
 https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
+https://taste.tuxfamily.org/wiki/index.php?title=Tricks_and_tools_for_PREEMPT-RT_kernel
