@@ -1,0 +1,10 @@
+syntax on
+set number
+set ruler
+set ai
+set ic
+set ts=2
+set sw=2
+set expandtab
+set nowrap
+set noswapfile
