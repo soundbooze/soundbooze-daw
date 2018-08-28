@@ -33,6 +33,7 @@ make install
 
 ## Priority
 
+- https://taste.tuxfamily.org/wiki/index.php?title=Tricks_and_tools_for_PREEMPT-RT_kernel
 - https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/
 
 ## Test
