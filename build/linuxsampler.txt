@@ -1,7 +1,8 @@
 http://download.linuxsampler.org/packages/libgig-4.1.0.tar.bz2
 
-
-./configure && make && make install
+apt-get-install sqlite3
 
 http://download.linuxsampler.org/packages/linuxsampler-2.1.0.tar.bz2
+
+./configure && make && make install
 
