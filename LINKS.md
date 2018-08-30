@@ -1,3 +1,18 @@
+
+# GIT synth, plugin etc/
+
+- https://github.com/mtytel/helm
+- https://github.com/brummer10/GxPlugins.lv2
+- https://libremusicproduction.com/tools/lsp-plugins
+- https://github.com/brummer10/GxVBassPreAmp.lv2
+- https://github.com/ssj71/rkrlv2/tree/master/src
+- https://padthv1.sourceforge.io/
+- https://www.vamp-plugins.org/download.html
+- https://github.com/steinbergmedia/vst3sdk
+- http://zynthian.org/
+- https://www.drumgizmo.org/wiki/doku.php?id=kits:drskit
+- https://github.com/x42/meters.lv2
+
 # Development
 
 - https://github.com/jessecrossen/python-jackpatch
@@ -12,14 +27,8 @@
 - https://github.com/AuburnSounds/dplug
 - https://github.com/craigsapp/midifile
 `
-# Links
+# DAWs
 
 - https://libremusicproduction.com
 - https://musical-artifacts.com
-- https://www.vamp-plugins.org/download.html
-- https://github.com/steinbergmedia/vst3sdk
-- http://kxstudio.linuxaudio.org/Documentation:Manual:simple_claudia_studio
-- http://zynthian.org/
-- https://www.drumgizmo.org/wiki/doku.php?id=kits:drskit
-- https://github.com/x42/meters.lv2
 - http://www.modernmetalproduction.com
