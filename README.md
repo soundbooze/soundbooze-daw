@@ -72,8 +72,9 @@ pacmd set-default-source 4
 
 ### known problems:
 
-- hw trojanEd 50:51
+- https://www.kernel.org/doc/html/v4.17/sound/soc/pops-clicks.html
 - jack-pulse :audio clicking
+- simplescreenrecorder cpu load 
 -
 
 ### stability test / benchmark
