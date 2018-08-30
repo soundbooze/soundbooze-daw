@@ -3,6 +3,7 @@ Audacity external launch - menu [patch]
 gtk2_ardour/
 editor.h
 editor.cc
+editor_actions.cc
 editor_ops.cc
 
 Rename...
