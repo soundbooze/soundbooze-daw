@@ -129,7 +129,7 @@ pacmd set-default-source 4
  
  minimise convolution
 
-- Synth / CAlf
+- Synth / hydrogen / CAlf
 
  via standalone -> record -> wav <-- import to ardour
 
