@@ -285,7 +285,7 @@ firmware-misc-nonfree
 - https://github.com/x42/meters.lv2
 - http://www.modernmetalproduction.com
 
-# TARGET / AIM
+# TARGETs / AIMs
 
 - STABility
 - PERFormance
