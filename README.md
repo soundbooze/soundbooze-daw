@@ -129,7 +129,10 @@ pacmd set-default-source 4
  
  minimise convolution
 
- 
+- Synth / CAlf
+
+ via standalone -> record -> wav <-- import to ardour
+
 # Links
 
 - https://github.com/soundbooze/soundbooze-daw/blob/master/LINKS.md
