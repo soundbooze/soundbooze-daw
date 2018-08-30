@@ -119,6 +119,17 @@ pacmd set-default-source 4
 - raspberry PI preselected 
 - arduino sync
 
+# Tips
+
+- Ardour: 
+ 
+ ardour: minmise plugins
+
+- Guitarix:
+ 
+ minimise convolution
+
+ 
 # Links
 
 - https://github.com/soundbooze/soundbooze-daw/blob/master/LINKS.md
