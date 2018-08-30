@@ -71,7 +71,7 @@ pacmd set-default-source 4
 
 - https://www.kernel.org/doc/html/v4.17/sound/soc/pops-clicks.html
 - jack-pulse :audio clicking
-- drumgizmo xml / way load
+- drumgizmo xml / wav load
 - simplescreenrecorder cpu load 
 -
 
