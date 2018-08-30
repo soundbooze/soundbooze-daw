@@ -116,6 +116,8 @@ pacmd set-default-source 4
 - STABility
 - PERFormance
 - minimise playBack clicks/pops
+- raspberry PI preselected 
+-
 
 # Links
 
