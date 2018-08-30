@@ -284,3 +284,10 @@ firmware-misc-nonfree
 - https://www.drumgizmo.org/wiki/doku.php?id=kits:drskit
 - https://github.com/x42/meters.lv2
 - http://www.modernmetalproduction.com
+
+# TARGET / AIM
+
+- STABility
+- PERFormance
+- minimise playBack clicks/pops
+
