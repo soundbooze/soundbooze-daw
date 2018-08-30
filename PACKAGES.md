@@ -42,7 +42,8 @@ apt-get install rubberband-cli rubberband-vamp rubberband-ladspa librubberband-d
 # MIDI synth host
 
 ```
-apt-get install qsynth bristol
+apt-get install qsynth bristol 
+apt-get install qsampler
 apt-get install fluidsynth libfluidsynth-dev 
 apt-get install jack-keyboard
 
