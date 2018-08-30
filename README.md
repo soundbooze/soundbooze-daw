@@ -131,8 +131,8 @@ pacmd set-default-source 4
 
 - Synth / CAlf
 
-  via standalone -> record -> wav <-- import to ardour
- 
+  via standalone -> record -> wav <-- import to ardour ||
+                                  <-- manual track / bus route
  - hydrogen / calf / plugins
  
   via standalone -> record -> wav <-- import to ardour
