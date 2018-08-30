@@ -69,6 +69,8 @@ pacmd set-default-source 4
 
 - https://github.com/jackaudio/jackaudio.github.com/wiki/WalkThrough_User_PulseOnJack
 - https://linux.die.net/man/5/pulse-daemon.conf
+- https://wiki.linuxaudio.org/wiki/system_configuration
+-
 
 ### known problems:
 
@@ -151,6 +153,7 @@ apt-get install kmidimon midicsv
 - https://libremusicproduction.com/tools/lsp-plugins
 - https://github.com/brummer10/GxVBassPreAmp.lv2
 - https://github.com/ssj71/rkrlv2/tree/master/src
+- https://padthv1.sourceforge.io/
 -
 
 ## Connections
