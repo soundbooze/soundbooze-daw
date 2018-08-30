@@ -146,16 +146,6 @@ apt-get install amsynth zynaddsubfx
 apt-get install kmidimon midicsv
 ```
 
-# GIT synth, plugin etc/
-
-- https://github.com/mtytel/helm
-- https://github.com/brummer10/GxPlugins.lv2
-- https://libremusicproduction.com/tools/lsp-plugins
-- https://github.com/brummer10/GxVBassPreAmp.lv2
-- https://github.com/ssj71/rkrlv2/tree/master/src
-- https://padthv1.sourceforge.io/
--
-
 ## Connections
 
 <pre>
