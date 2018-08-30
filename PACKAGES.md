@@ -1,7 +1,7 @@
 **manually build
 ```
 apt-get install jackd2 pulseaudio qjackctl pulseaudio-module-jack jack-capture
-``
+```
 
 # APT INSTALL
 
