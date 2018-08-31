@@ -1,5 +1,7 @@
 - https://wiki.debian.org/Wine
 
+winecfg
+
 netjack
 -
 
