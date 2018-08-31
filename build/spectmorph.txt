@@ -1,3 +1,6 @@
+
+apt-get install libao-dev
+
 http://www.spectmorph.org/files/releases/spectmorph-0.4.1.tar.bz2
 
 ./configure
