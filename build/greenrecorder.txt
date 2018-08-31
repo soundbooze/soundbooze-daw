@@ -1,0 +1,2 @@
+python setup.py install
+/usr/local/bin/green-recorder ---> /usr/local/share/green-recorder/ui.glade
