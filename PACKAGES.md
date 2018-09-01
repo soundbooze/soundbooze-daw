@@ -44,7 +44,6 @@ apt-get install rubberband-cli rubberband-vamp rubberband-ladspa librubberband-d
 ```
 apt-get install qsynth bristol 
 apt-get install qsampler
-apt-get install fluidsynth libfluidsynth-dev 
 apt-get install jack-keyboard
 
 apt-get install cecilia
@@ -52,10 +51,11 @@ apt-get install csound sooperlooper python-pyo
 apt-get install aeolus synthv1 hexter qsynth ams
 ```
 
-### lightweight (ideal for pi)
+### lightweight (ideal for PI)
 
 ```
 apt-get install amsynth zynaddsubfx
+apt-get install fluidsynth libfluidsynth-dev 
 ```
 
 # MIDI Parser
