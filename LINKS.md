@@ -14,6 +14,7 @@
 - https://drumgizmo.org/wiki/doku.php?id=cli-howto
 - https://github.com/x42/meters.lv2
 - https://musical-artifacts.com/artifacts/3?class=related-link
+- https://musical-artifacts.com/artifacts/235
 - http://www.skyehaven.net/blog/linux-multimedia-sprint/downloads/hydrogen-drumkits-v2/
 
 
