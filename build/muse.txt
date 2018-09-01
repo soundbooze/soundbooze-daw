@@ -1,3 +1,5 @@
 http://muse-sequencer.org/index.php/Download#Stable_releases
 
+apt-get install liblo-dev dssi-dev
+
 ./compile_muse.sh
