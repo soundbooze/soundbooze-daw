@@ -1,0 +1,3 @@
+http://muse-sequencer.org/index.php/Download#Stable_releases
+
+./compile_muse.sh
