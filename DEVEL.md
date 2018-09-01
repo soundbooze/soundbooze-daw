@@ -9,4 +9,5 @@
 
 ```
 pip install mido deap tensorflow
+pip install python-rtmidi
 ```
