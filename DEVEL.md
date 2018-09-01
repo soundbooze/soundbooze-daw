@@ -3,6 +3,7 @@
 ```
 ...
 ```
+- https://github.com/soundbooze/soundbooze-daw/tree/master/scripts
 
 # Python
 
