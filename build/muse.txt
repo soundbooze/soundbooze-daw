@@ -1,8 +1,0 @@
-http://muse-sequencer.org/index.php/Download#Stable_releases
-
-apt-get install liblo-dev dssi-dev
-
-muse/widgets/knob.cpp +175
-muse/widgets/knob_and_meter.cpp +174
-
-./compile_muse.sh
