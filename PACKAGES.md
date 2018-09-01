@@ -36,7 +36,7 @@ apt-get install faust faustworks
 # Rubberband
 
 ```
-apt-get install rubberband-cli rubberband-vamp rubberband-ladspa librubberband-dev
+apt-get install rubberband-cli rubberband-vamp rubberband-ladspa
 ```
 
 # MIDI synth host
@@ -55,7 +55,7 @@ apt-get install aeolus synthv1 hexter qsynth ams
 
 ```
 apt-get install amsynth zynaddsubfx
-apt-get install fluidsynth libfluidsynth-dev 
+apt-get install fluidsynth
 ```
 
 # MIDI Parser
