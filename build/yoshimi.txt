@@ -1,0 +1,7 @@
+apt-get install cmake-curses-gui
+
+cd src/
+ccmake .
+cmake .
+make
+make install
