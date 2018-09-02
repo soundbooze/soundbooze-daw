@@ -4,12 +4,16 @@
 
 ```
 JACK
-2 [Amplifier      ]: USB-Audio - Mustang Amplifier
+
+0 [Track          ]: USB-Audio - M-Audio Fast Track
+
+1 [Amplifier      ]: USB-Audio - Mustang Amplifier
 
 - https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/soundcard.jpg
 
 ALSA (additional USB guitar cable)
-3 [Device         ]: USB-Audio - USB PnP Sound Device
+
+2 [Device         ]: USB-Audio - USB PnP Sound Device
 
 - https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/guitar.jpg
 
