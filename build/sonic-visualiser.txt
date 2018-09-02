@@ -1,4 +1,8 @@
+
+export CXXFLAGS=-std=c++14
+
 curl -O https://capnproto.org/capnproto-c++-0.7.0.tar.gz
+
 tar zxf capnproto-c++-0.7.0.tar.gz
 cd capnproto-c++-0.7.0
 ./configure
@@ -6,8 +10,6 @@ make -j6 check
 sudo make install
 
 ------------------------------------------
-
-export CXXFLAGS=-std=c++14
 
 apt-get install qt5-qmake libqt5*
 cd /usr/lib/x86_64-linux-gnu/qt5/bin/
