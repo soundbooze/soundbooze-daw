@@ -6,8 +6,12 @@
 JACK
 2 [Amplifier      ]: USB-Audio - Mustang Amplifier
 
+- https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/soundcard.jpg
+
 ALSA (additional USB guitar cable)
 3 [Device         ]: USB-Audio - USB PnP Sound Device
+
+- https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/guitar.jpg
 
 Note: For reference, ALSA stores its settings in /var/lib/alsa/asound.state
 ```
