@@ -123,8 +123,8 @@ pacmd set-default-source 4
 
 - Ardour: 
  
- -ardour: minmise plugins
- -pre-processed effect via audacity
+ - ardour: minmise plugins
+ - pre-processed effect via audacity
  
 - Guitarix:
  
