@@ -48,9 +48,9 @@ vm.swappiness = 10
 fs.inotify.max_user_watches = 524288
 ```
 
-## proc
-
 ```
+sysctl -w vm.swappiness=10
+sysctl fs.inotify.max_user_watches=524288
 echo 2048 > /sys/class/rtc/rtc0/max_user_freq
 echo 2048 > /proc/sys/dev/hpet/max-user-freq
 ```
