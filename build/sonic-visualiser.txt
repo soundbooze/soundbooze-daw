@@ -1,1 +1,4 @@
+apt-get install libcapnp-dev
+
+
 ./configure && make && make install
