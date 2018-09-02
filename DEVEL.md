@@ -9,6 +9,8 @@ apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev
 
 # Python
 
+apt-get install python-opencv
+
 ```
 pip install mido deap tensorflow
 pip install python-rtmidi
