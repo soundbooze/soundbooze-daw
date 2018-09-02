@@ -10,7 +10,7 @@ apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev
 # Python
 
 apt-get install python-opencv
-
+pip install rpi.gpio
 ```
 pip install pyalsaaudio pyaudio
 pip install mido deap tensorflow
