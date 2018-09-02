@@ -1,4 +1,10 @@
-apt-get install libcapnp-dev
+curl -O https://capnproto.org/capnproto-c++-0.7.0.tar.gz
+tar zxf capnproto-c++-0.7.0.tar.gz
+cd capnproto-c++-0.7.0
+./configure
+make -j6 check
+sudo make install
 
 
 ./configure && make && make install
+https://code.soundsoftware.ac.uk/attachments/download/2391/sonic-visualiser-3.1.1.tar.gz
