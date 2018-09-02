@@ -41,6 +41,18 @@ make install
 
 - https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
 
+## /etc/sysctl.conf
+
+```
+vm.swappiness = 10
+fs.inotify.max_user_watches = 524288
+```
+
+## proc
+
+echo 2048 > /sys/class/rtc/rtc0/max_user_freq
+echo 2048 > /proc/sys/dev/hpet/max-user-freq
+
 ## Blacklist
 
 - cat /etc/modprobe.d/snd-hda-intel.conf 
