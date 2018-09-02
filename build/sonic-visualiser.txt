@@ -5,6 +5,14 @@ cd capnproto-c++-0.7.0
 make -j6 check
 sudo make install
 
+------------------------------------------
+
+export CXXFLAGS=-std=c++14
+
+apt-get install qt5-qmake libqt5*
+cd /usr/lib/x86_64-linux-gnu/qt5/bin/
+ln -sf qmake qmake-qt5
+export PATH=$PATH:`pwd`
 
 ./configure && make && make install
 https://code.soundsoftware.ac.uk/attachments/download/2391/sonic-visualiser-3.1.1.tar.gz
