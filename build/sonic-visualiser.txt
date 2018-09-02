@@ -1,4 +1,7 @@
 
+apt install libid3tag0-dev
+apt-get install liboggz-dev
+
 export CXXFLAGS=-std=c++14
 
 curl -O https://capnproto.org/capnproto-c++-0.7.0.tar.gz
