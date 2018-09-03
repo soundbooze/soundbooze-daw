@@ -1,7 +1,8 @@
 /* 
  *
  * real-time alsa stream
- * gcc -Wall -O3 alsa.c -o alsa -lasound -lm `pkg-config --cflags --libs aubio`
+ * https://aubio.org/doc/latest/examples.html
+ * gcc -Wall -O3 realtime.c -o realtime -lasound -lm `pkg-config --cflags --libs aubio`
  *
  * */
 
