@@ -7,6 +7,11 @@ ekonomi - jangkauan publik
 - arduino [ok]
 - servo [ok]
 
+
+-1 music track --
+             |
+   tone generation/morph effect - smooth transition
+
 ---elitism onli
 
 - 3d printer ---??
