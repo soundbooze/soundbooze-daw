@@ -4,7 +4,12 @@ Tone cloud
 
 ekonomi - jangkauan publik
 
-arduino [ok]
-servo [ok]
+- arduino [ok]
+- servo [ok]
 
-3d printer ---??
+---elitism onli
+
+- 3d printer ---??
+- thunderbolt
+
+- gpu / cloud
