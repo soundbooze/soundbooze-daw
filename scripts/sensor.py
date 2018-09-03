@@ -10,7 +10,6 @@ import time
 import signal
 import threading
 import getopt
-import librosa
 import numpy as np
 
 threadLock = threading.Lock()
@@ -36,20 +35,14 @@ class captureThread (threading.Thread):
           threadLock.acquire()
      
           try:
-            os.system("arecord -D hw:2 -r 48000 -f S16_LE  -t wav -d 1 out.wav > /dev/null 2>&1")
-            y, sr = librosa.load('out.wav')
-            S = np.abs(librosa.stft(y))
-            ypow = librosa.power_to_db(S**2)
-            mic = np.average(ypow)
-            os.system("rm -f out.wav")
-            print mic
+            #os.system("arecord -D hw:2 -r 48000 -f S16_LE  -t wav -d 1 out.wav > /dev/null 2>&1")
+            os.system("./realtime")
           except:
             pass
 
           threadLock.release()
 
 class videoThread (threading.Thread):
-   global threadLock
 
    def __init__(self, threadID, name):
       threading.Thread.__init__(self)
