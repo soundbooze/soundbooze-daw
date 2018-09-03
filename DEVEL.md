@@ -9,7 +9,7 @@ apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev
 
 # Python
 
-apt-get install python-opencv
+apt-get install python-opencv libopencv-dev
 
 ```
 pip install pyalsaaudio pyaudio
