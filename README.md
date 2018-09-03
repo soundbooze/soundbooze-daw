@@ -81,7 +81,7 @@ pacmd set-default-source 4
 - jack-pulse :audio clicking
 - drumgizmo xml / wav load
 - simplescreenrecorder cpu load 
--
+- libvamp_essentia.so .. crashed
 
 ### stability test / benchmark
 
