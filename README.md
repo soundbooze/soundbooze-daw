@@ -38,8 +38,6 @@ ctl.!default {
 }
 ```
 
-> ** qjackctl - Force 16 bit
-
 #### Pulseaudio JACKD *overload
 
 - overload
