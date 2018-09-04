@@ -23,7 +23,9 @@ while(1):
 
     m = __threshold_moving(old_sobel, sobel)
 
-    # naive - TODO: movement <-- valChange
+    # naive - TODO: - movement <-- valChange
+    #               - rnd var / ...process ? hmm, .. /stat inf
+    #               - tap to enable/disable
 
     i, o = m
     sum_nd = int(np.sum(o)/750000)
