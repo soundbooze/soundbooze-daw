@@ -1,1 +1,3 @@
- ./buildStandalone.sh 
+ sed -i '117s/(char)/(unsigned char)/g' src/include/core/vectorTransform.hpp
+ 
+ ./buildStandalone.sh 
