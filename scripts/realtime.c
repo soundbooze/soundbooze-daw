@@ -1,8 +1,8 @@
 /* 
+ * real-time alsa stream [uduk.org]
  *
- * real-time alsa stream
  * https://aubio.org/doc/latest/examples.html
- * gcc -Wall -O3 realtime.c -o realtime -lasound -lm `pkg-config --cflags --libs aubio`
+ * gcc -Wall -O3 realtime.c -o realtime -lm `pkg-config --cflags --libs alsa aubio`
  *
  * */
 
@@ -32,7 +32,7 @@ open_capture_device (void)
 {
   snd_pcm_format_t format = SND_PCM_FORMAT_S16_LE;
   snd_pcm_uframes_t buffer_size = 1024;
-  snd_pcm_uframes_t period_size = 64; /* jackd: 2 */
+  snd_pcm_uframes_t period_size = 2;
 
   if ((err = snd_pcm_open (&capture_handle, ALSA_DEVICE, SND_PCM_STREAM_CAPTURE, 0)) < 0) {
     fprintf (stderr, "cannot open audio device %s (%s)\n", ALSA_DEVICE, snd_strerror (err));
@@ -197,8 +197,9 @@ void
 loop (void) 
 {
   int frames = (int) get_buffer_size();
-  int16_t buffer[frames];
-  double buffer_d[frames];
+  int buf_sz = frames * ALSA_CHANNEL * 2;
+  int16_t buffer[buf_sz];
+  double buffer_d[buf_sz];
 
   while(TRUE) {
 
