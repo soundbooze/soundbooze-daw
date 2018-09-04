@@ -15,4 +15,5 @@ apt-get install python-opencv libopencv-dev
 pip install pyalsaaudio pyaudio
 pip install mido deap tensorflow
 pip install python-rtmidi
+pip install scikit-image
 ```
