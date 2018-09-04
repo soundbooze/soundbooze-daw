@@ -4,6 +4,8 @@
  * https://aubio.org/doc/latest/examples.html
  * gcc -Wall -O3 realtime.c -o realtime -lm `pkg-config --cflags --libs alsa aubio`
  *
+ * TODO: buffer append: extract ->
+ *
  * */
 
 #include <stdio.h>
@@ -26,6 +28,13 @@ snd_pcm_hw_params_t *hw_params;
 
 unsigned int rate = 48000;
 int err;
+
+
+/* --------------- HEADER (TODO: Makefile, list all - separate)*/
+
+void loop(void);
+
+/* --------------- ALSA */
 
 int
 open_capture_device (void) 
@@ -101,13 +110,31 @@ get_buffer_size (void) {
   return frames;
 }
 
+/* --------------- UTILS */
+
+void cleanup (void)
+{
+  aubio_cleanup();
+  snd_pcm_close(capture_handle);
+}
+
 void  
 exit_handler (int s)
 {
-  aubio_cleanup ();
-  snd_pcm_close (capture_handle);
+  cleanup();
   exit(0);
 }
+
+void 
+bootstrap (void)
+{
+  if (open_capture_device() == -1) {
+    exit_handler(SIGINT);
+  }
+  loop();
+}
+
+/* --------------- FEATURES */
 
 void
 pcm_to_double (const int16_t *buffer, double *buf_d, int N)
@@ -119,11 +146,13 @@ pcm_to_double (const int16_t *buffer, double *buf_d, int N)
   }
 }
 
-double getDb(const double rms) {
+double getDb(const double rms) 
+{
   return (double) 20.0 * (log(rms) / M_LN10);
 };
 
-double getRMS(const double *buffer, int N) {
+double getRMS(const double *buffer, int N) 
+{
 
   double rms = 0.0;
   short int i = 0;
@@ -205,6 +234,8 @@ loop (void)
 
     if ((err = snd_pcm_mmap_readi (capture_handle, buffer, frames)) != frames) {
       fprintf (stderr, "read from audio interface failed (%s)\n", snd_strerror (err));
+      cleanup();
+      bootstrap();
     }
 
     pcm_to_double(buffer, buffer_d, frames);
@@ -227,12 +258,6 @@ int
 main (int argc, char *argv[])
 {
   signal(SIGINT, exit_handler);
-
-  if (open_capture_device() == -1) {
-    exit_handler(SIGINT);
-  }
-
-  loop();
-
+  bootstrap(); 
   exit (0);
 }
