@@ -1,0 +1,5 @@
+killall qjackctl
+killall jackd
+
+pulseaudio -k
+pulseaudio -D
