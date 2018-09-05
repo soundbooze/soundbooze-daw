@@ -1,0 +1,3 @@
+https://github.com/moddevices/mod-host
+
+make && make install
