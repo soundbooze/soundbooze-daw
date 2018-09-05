@@ -81,6 +81,10 @@ pacmd set-default-source 4
 - simplescreenrecorder cpu load 
 - libvamp_essentia.so .. crashed
 
+### TODO
+
+- alsa fixed dev idx
+
 ### stability test / benchmark
 
 - kernelshark
