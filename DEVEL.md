@@ -17,4 +17,5 @@ pip install mido deap tensorflow
 pip install python-rtmidi
 pip install scikit-image
 pip install sounddevice
+pip install soundfile
 ```
