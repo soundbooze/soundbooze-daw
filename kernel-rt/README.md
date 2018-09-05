@@ -58,6 +58,15 @@ echo 2048 > /proc/sys/dev/hpet/max-user-freq
 ## Blacklist
 
 - cat /etc/modprobe.d/snd-hda-intel.conf 
-> blacklist snd_hda_intel
+
+```
+blacklist snd_hda_intel
+blacklist thunderbolt
+blacklist firewire_ohci
+blacklist firewire_core
+blacklist btusb
+blacklist pcspkr
+blacklist ip_tables
+```
 
 
