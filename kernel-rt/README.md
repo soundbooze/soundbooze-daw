@@ -40,6 +40,8 @@ make install
 ## Test
 
 - https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
+- http://www.alsa-project.org/main/index.php/Test_latency.c
+- https://wiki.linuxaudio.org/wiki/jack_latency_tests
 
 ## /etc/sysctl.conf
 
