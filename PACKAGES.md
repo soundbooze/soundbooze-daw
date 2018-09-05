@@ -19,6 +19,13 @@ apt-get install sonic-visualiser
 apt-get install mustang-plug wmaker
 ```
 
+# Host
+
+```
+apt-get install jalv
+apt-get lilv-utils  <--- lv2ls
+```
+
 # Video
 
 ```
