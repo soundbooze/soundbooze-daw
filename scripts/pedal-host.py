@@ -1,3 +1,6 @@
+import sys
+import signal
+
 import numpy as np
 import cv2
 from skimage import util, filters
@@ -5,12 +8,20 @@ from skimage import util, filters
 import socket, time
 import subprocess as sp
 
+def SignalExit(signal, frame):
+    cv2.destroyAllWindows()
+    cap.release()
+    send_command('remove 0')
+    sys.exit(0)
+
 def __threshold_moving(input, last_image):
         if (last_image.shape == input.shape):
             output =  cv2.absdiff(input, last_image)
         else:
             output = numpy.ndarray(shape=input.shape, dtype=input.dtype)
         return input, output
+
+signal.signal(signal.SIGINT, SignalExit)
 
 cap = cv2.VideoCapture(1)
 ret,old_frame = cap.read()
@@ -98,7 +109,6 @@ while(1):
     #print np.cumprod(oo)
     # naive
 
-
     #cv2.imshow('frame', sobel)
 
     k = cv2.waitKey(30) & 0xff
@@ -107,7 +117,3 @@ while(1):
 
     old_gray = frame_gray.copy()
 
-cv2.destroyAllWindows()
-cap.release()
-
-send_command('remove 0')
