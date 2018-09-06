@@ -15,3 +15,5 @@ make install
 
 
 ** conflict jack (pkg) + jack (custom build lib)
+
+apt-get install dssi-host-jack
