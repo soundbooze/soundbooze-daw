@@ -1,0 +1,8 @@
+https://github.com/falkTX/dssi-vst
+
+apt-get install gcc-multilib g++-multilib
+apt-get install wine64-development-tools
+apt-get install wine64-tools wine64-development
+
+make
+make install
