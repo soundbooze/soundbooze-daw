@@ -4,7 +4,9 @@ apt-get install gcc-multilib g++-multilib
 apt-get install wine64-development-tools
 apt-get install wine64-tools wine64-development
 apt-get install wine32-development wine32-development-tools wine32-tools
-apt-get install libzip-dev
+
+apt-get install libzip-dev 
+apt-get install zlib1g-dev zlibc
 
 make
 make install
