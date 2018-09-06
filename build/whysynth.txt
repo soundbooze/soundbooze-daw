@@ -1,0 +1,5 @@
+http://smbolton.com/whysynth.html
+
+#standard
+
+run via jack-dssi-HOST
