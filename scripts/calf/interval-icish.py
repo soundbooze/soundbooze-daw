@@ -1,10 +1,57 @@
 from subprocess import check_output
-import sys
-import time
-import signal
 import jack
 
+import os, sys, socket, signal, time
+
+LOCALHOST = 'localhost'
 CALFJACKHOST = 'calfjackhost'
+MODHOST = 'mod-host'
+
+modhost_plugins = [
+            'http://calf.sourceforge.net/plugins/Analyzer',
+            'http://calf.sourceforge.net/plugins/Equalizer8Band',
+            'http://calf.sourceforge.net/plugins/MultibandCompressor',
+            'http://calf.sourceforge.net/plugins/MultibandLimiter',
+            'http://calf.sourceforge.net/plugins/Reverb'
+          ]
+
+# --------------- Modhost
+
+def send_command(s, command):
+    s.send(command)
+    time.sleep(0.1)
+
+    try:
+        resp = s.recv(1024)
+        return True
+
+    except Exception:
+        return False
+
+def run_via_modhost():
+    os.system(MODHOST + " -p 5150")
+
+def modhost_add_plugins():
+    time.sleep(0.5)
+    s = socket.socket()
+    s.connect((LOCALHOST, 5150))
+    s.settimeout(5)
+
+    for i, plugin in enumerate(modhost_plugins):
+        send_command(s, 'add %s %i' % (plugin, i))
+
+    s.close()
+
+def modhost_remove_plugins():
+    time.sleep(0.5)
+    s = socket.socket()
+    s.connect((LOCALHOST, 5150))
+    s.settimeout(5)
+
+    for i in range(len(modhost_plugins)):
+        send_command(s, 'remove %i' % i)
+
+    s.close()
 
 def get_pid(name):
     try:
@@ -12,12 +59,11 @@ def get_pid(name):
     except:
         pass
 
-'''
-def SignalExit(signal, frame):
-    sys.exit(0)
+def ConnectSocket():
+    run_via_modhost()
+    modhost_add_plugins()
 
-signal.signal(signal.SIGINT, SignalExit)
-'''
+# --------------- Jack
 
 def ConnectJack():
 
@@ -44,7 +90,10 @@ def ConnectJack():
 
     client = jack.Client('interval-icish')
 
-    regexPort = client.get_ports('(Calf Studio Gear:Analyzer|Calf Studio Gear:Equalizer 8 Band|Calf Studio Gear:Multiband Compressor|Calf Studio Gear:Multiband Limiter)')
+    regexPort = client.get_ports('(' + CALF_ANALYZER + 
+                                 '|' + CALF_8BAND_EQUALIZER + 
+                                 '|' + CALF_MULTIBAND_COMPRESSOR +
+                                 '|' + CALF_MULTIBAND_LIMITER + ')')
     if (regexPort):
 
         try:
@@ -82,6 +131,18 @@ def ConnectJack():
     client.close()
 
     return False
+
+# --------------- Misc
+
+def SignalExit(signal, frame):
+    modhost_remove_plugins()
+    sys.exit(0)
+
+# --------------- Main
+
+signal.signal(signal.SIGINT, SignalExit)
+
+# ConnectSocket() -- TODO: map effects names
 
 while (True):
 
