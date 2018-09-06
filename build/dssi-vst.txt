@@ -12,3 +12,6 @@ apt-get install lib32z1-dev
 
 make
 make install
+
+
+** conflict jack (pkg) + jack (custom build lib)
