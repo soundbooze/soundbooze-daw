@@ -1,3 +1,5 @@
+(room-level accuracy - use @your own risk)
+
 # Device Setup
 
 ![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/bingung-not.png "Home")
