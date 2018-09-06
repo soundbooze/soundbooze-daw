@@ -23,18 +23,30 @@ def ConnectJack():
 
     MONITOR1 = 'system:monitor_1'
     MONITOR2 = 'system:monitor_2'
+    CAPTURE1 = 'system:capture_1'
+    CAPTURE2 = 'system:capture_2'
 
     client = jack.Client('interval-icish')
 
     regexPort = client.get_ports('Calf Studio Gear:Analyzer')
     if (regexPort):
-        print 'Connecting'
-        client.connect(MONITOR1, 'Calf Studio Gear:Analyzer In #1')
-        client.connect(MONITOR2, 'Calf Studio Gear:Analyzer In #2')
+
+        try:
+            if (sys.argv[1] == "playback"):
+                client.connect(MONITOR1, 'Calf Studio Gear:Analyzer In #1')
+                client.connect(MONITOR2, 'Calf Studio Gear:Analyzer In #2')
+            elif (sys.argv[1] == "capture"):
+                client.connect(CAPTURE1, 'Calf Studio Gear:Analyzer In #1')
+                client.connect(CAPTURE2, 'Calf Studio Gear:Analyzer In #2')
+
+        except:
+            pass
+
         return True
 
     client.deactivate()
     client.close()
+
     return False
 
 while (True):
