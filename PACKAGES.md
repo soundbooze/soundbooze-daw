@@ -9,7 +9,8 @@ apt-get install jackd2 pulseaudio qjackctl pulseaudio-module-jack jack-capture
 apt-get install audacity ardour 
 apt-get install guitarix rakarrack 
 apt-get install polyphone
-apt-get install x42-plugins [multimedia-audio-plugins ***crash]
+apt-get install x42-plugins [multimedia-audio-plugins ***crash] 
+apt-get install eq10q
 # apt-get install calf-plugins
 apt-get install tuxguitar 
 # apt-get install jamin sweep qtractor
