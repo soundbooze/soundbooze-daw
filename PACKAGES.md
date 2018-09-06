@@ -40,6 +40,12 @@ apt-get install openshot lives krita
 apt-get install faust faustworks
 ```
 
+# Polyphone
+
+```
+https://www.polyphone-soundfonts.com/en/download
+```
+
 # Rubberband
 
 ```
