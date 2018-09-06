@@ -27,3 +27,5 @@ pip install soundfile
 - https://github.com/crflynn/stochastic
 - https://github.com/dennybritz/reinforcement-learning
 - https://github.com/bblais/Statistical-Inference-for-Everyone
+
+- https://www.programcreek.com/python/example/89428/cv2.absdiff
