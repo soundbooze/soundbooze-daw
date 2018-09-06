@@ -28,4 +28,10 @@ pip install soundfile
 - https://github.com/dennybritz/reinforcement-learning
 - https://github.com/bblais/Statistical-Inference-for-Everyone
 
+# Misc
+
 - https://www.programcreek.com/python/example/89428/cv2.absdiff
+
+# Plugins
+
+- https://github.com/moddevices/caps-lv2
