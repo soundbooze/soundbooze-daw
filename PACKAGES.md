@@ -82,6 +82,10 @@ apt-get install hydrogen gtklick
 
 # Soundfont
 
+```
+apt search soundfont
+```
+
 - https://x42-plugins.com/x42/x42-avldrums
 - https://github.com/x42/avldrums.lv2
 - https://www.polyphone-soundfonts.com/en/download
