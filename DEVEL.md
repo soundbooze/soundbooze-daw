@@ -3,6 +3,7 @@
 ```
 apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev 
 apt-get install libgsl-dev
+apt-get install python-pyo
 ```
 
 - https://github.com/soundbooze/soundbooze-daw/tree/master/scripts
