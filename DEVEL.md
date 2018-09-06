@@ -21,3 +21,9 @@ pip install scikit-image
 pip install sounddevice
 pip install soundfile
 ```
+
+# GIT meths
+
+- https://github.com/crflynn/stochastic
+- https://github.com/dennybritz/reinforcement-learning
+- https://github.com/bblais/Statistical-Inference-for-Everyone
