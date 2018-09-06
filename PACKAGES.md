@@ -43,6 +43,8 @@ apt-get install faust faustworks
 # Polyphone
 
 ```
+libstk0-dev 
+
 https://www.polyphone-soundfonts.com/en/download
 ```
 
