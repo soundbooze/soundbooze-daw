@@ -31,7 +31,7 @@ apt-get lilv-utils  <--- lv2ls
 ```
 apt-get install vlc simplescreenrecorder
 apt-get install vlc-plugin-jack
-apt-get install openshot lives
+apt-get install openshot lives krita
 ```
 
 # Faust
