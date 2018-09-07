@@ -130,7 +130,7 @@ pacmd set-default-source 4
 - minimise playBack clicks/pops
 - raspberry PI preselected 
 - MINIMALIST / non-redudancy
-- arduino sync
+- arduino sync / preselected apps
 
 # Tips
 
