@@ -78,10 +78,15 @@ def ConnectJack():
     HYDROGEN1 = 'Hydrogen:out_L'
     HYDROGEN2 = 'Hydrogen:out_R'
 
-    SOOPERLOOPER_IN1 = 'sooperlooper:loop0_in_1'
-    SOOPERLOOPER_IN2 = 'sooperlooper:loop0_in_2'
-    SOOPERLOOPER_OUT1 = 'sooperlooper:loop0_out_1'
-    SOOPERLOOPER_OUT2 = 'sooperlooper:loop0_out_2'
+    SOOPERLOOPER0_IN1 = 'sooperlooper:loop0_in_1'
+    SOOPERLOOPER0_IN2 = 'sooperlooper:loop0_in_2'
+    SOOPERLOOPER0_OUT1 = 'sooperlooper:loop0_out_1'
+    SOOPERLOOPER0_OUT2 = 'sooperlooper:loop0_out_2'
+
+    #SOOPERLOOPER1_IN1 = 'sooperlooper:loop1_in_1'
+    #SOOPERLOOPER1_IN2 = 'sooperlooper:loop1_in_2'
+    SOOPERLOOPER1_OUT1 = 'sooperlooper:loop1_out_1'
+    SOOPERLOOPER1_OUT2 = 'sooperlooper:loop1_out_2'
 
     IN1 = "In #1"
     IN2 = "In #2"
@@ -128,10 +133,12 @@ def ConnectJack():
                 client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
                 client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
             elif (sys.argv[1] == "sooperlooper"):
-                client.connect(CAPTURE1, SOOPERLOOPER_IN1)
-                client.connect(CAPTURE2, SOOPERLOOPER_IN2)
-                client.connect(SOOPERLOOPER_OUT1, PLAYBACK1)
-                client.connect(SOOPERLOOPER_OUT2, PLAYBACK2)
+                client.connect(CAPTURE1, SOOPERLOOPER0_IN1)
+                client.connect(CAPTURE2, SOOPERLOOPER0_IN2)
+                client.connect(SOOPERLOOPER0_OUT1, PLAYBACK1)
+                client.connect(SOOPERLOOPER0_OUT2, PLAYBACK2)
+                client.connect(SOOPERLOOPER1_OUT1, PLAYBACK1)
+                client.connect(SOOPERLOOPER1_OUT2, PLAYBACK2)
 
         except:
             pass
