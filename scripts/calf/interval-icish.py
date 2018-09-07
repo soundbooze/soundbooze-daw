@@ -78,6 +78,11 @@ def ConnectJack():
     HYDROGEN1 = 'Hydrogen:out_L'
     HYDROGEN2 = 'Hydrogen:out_R'
 
+    SOOPERLOOPER_IN1 = 'sooperlooper:loop0_in_1'
+    SOOPERLOOPER_IN2 = 'sooperlooper:loop0_in_2'
+    SOOPERLOOPER_OUT1 = 'sooperlooper:loop0_out_1'
+    SOOPERLOOPER_OUT2 = 'sooperlooper:loop0_out_2'
+
     IN1 = "In #1"
     IN2 = "In #2"
     OUT1 = "Out #1"
@@ -93,7 +98,8 @@ def ConnectJack():
     regexPort = client.get_ports('(' + CALF_ANALYZER + 
                                  '|' + CALF_8BAND_EQUALIZER + 
                                  '|' + CALF_MULTIBAND_COMPRESSOR +
-                                 '|' + CALF_MULTIBAND_LIMITER + ')')
+                                 '|' + CALF_MULTIBAND_LIMITER + 
+                                 '|' + 'sooperlooper' + ')')
     if (regexPort):
 
         try:
@@ -121,6 +127,11 @@ def ConnectJack():
                 client.connect(CALF_MULTIBAND_LIMITER + " " + OUT2, CALF_REVERB + " " + IN2)
                 client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
                 client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
+            elif (sys.argv[1] == "sooperlooper"):
+                client.connect(CAPTURE1, SOOPERLOOPER_IN1)
+                client.connect(CAPTURE2, SOOPERLOOPER_IN2)
+                client.connect(SOOPERLOOPER_OUT1, PLAYBACK1)
+                client.connect(SOOPERLOOPER_OUT2, PLAYBACK2)
 
         except:
             pass
@@ -146,10 +157,15 @@ signal.signal(signal.SIGINT, SignalExit)
 
 while (True):
 
+    '''
     r = get_pid(CALFJACKHOST)
     if (r != None):
         if (ConnectJack()):
             sys.exit(0)
+    '''
+
+    if (ConnectJack()):
+          sys.exit(0)
 
     time.sleep(1)
 
