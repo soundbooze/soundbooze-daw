@@ -140,7 +140,6 @@ pacmd set-default-source 4
 
 - https://www.youtube.com/watch?v=3jnhb_x3BAU
 - https://www.youtube.com/watch?v=1W0NbsuI-j4
-- https://www.youtube.com/watch?v=CIo2e81qDI4
 - https://www.youtube.com/watch?v=sI1xHw-FXQM
 - https://www.youtube.com/watch?v=hCpUw_uZlzM
 
