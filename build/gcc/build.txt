@@ -25,7 +25,7 @@ cd build-gcc
 make all-gcc
 make all-target-libgcc
 make install-gcc
-#make install-target-libgcc
+make install-target-libgcc
 
 ### libsigcc++ (optional)
 
