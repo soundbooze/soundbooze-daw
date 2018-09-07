@@ -119,10 +119,6 @@ pacmd set-default-source 4
 
 </pre>
 
-# Packages Installation
-
-- https://github.com/soundbooze/soundbooze-daw/blob/master/PACKAGES.md
-
 # TARGETs / AIMs
 
 - STABility
@@ -131,6 +127,10 @@ pacmd set-default-source 4
 - raspberry PI preselected 
 - MINIMALIST / non-redudancy
 - arduino sync / preselected apps
+
+# Packages Installation
+
+- https://github.com/soundbooze/soundbooze-daw/blob/master/PACKAGES.md
 
 # Links
 
