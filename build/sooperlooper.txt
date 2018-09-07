@@ -1,5 +1,0 @@
-http://essej.net/sooperlooper/
-
-apt-get install libtool-bin
-
-standard build
