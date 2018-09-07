@@ -13,7 +13,7 @@ apt-get install python-pyo
 apt-get install python-opencv libopencv-dev
 
 ```
-pip install JACK-Client
+pip install JACK-Client alsaseq
 pip install pyalsaaudio pyaudio 
 pip install mido deap tensorflow
 pip install python-rtmidi
