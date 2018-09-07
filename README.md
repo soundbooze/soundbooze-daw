@@ -132,27 +132,6 @@ pacmd set-default-source 4
 - MINIMALIST / non-redudancy
 - arduino sync / preselected apps
 
-# Tips
-
-- Ardour: 
- 
- - ardour: minmise plugins
- - pre-processed effect via audacity
- 
-- Guitarix:
- 
- minimise convolution
-
-- Synth / CAlf
-
-  via standalone -> record -> wav <-- import to ardour ||
-                                  <-- manual track / bus route
- - hydrogen / calf / plugins
- 
-  via standalone -> record -> wav <-- import to ardour
-  
- - Desktop (lightweight) i.e: wmaker
-
 # Links
 
 - https://github.com/soundbooze/soundbooze-daw/blob/master/LINKS.md
