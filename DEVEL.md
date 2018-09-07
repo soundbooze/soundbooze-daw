@@ -33,6 +33,10 @@ pip install hmmlearn
 
 - https://www.programcreek.com/python/example/89428/cv2.absdiff
 
+# Notation
+
+ - apt-get install lilypond
+ 
 # Plugins
 
 - https://github.com/moddevices/caps-lv2
