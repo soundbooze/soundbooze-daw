@@ -2,7 +2,7 @@
 
 ```
 apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev 
-apt-get install libgsl-dev
+apt-get install libgsl-dev 
 apt-get install python-pyo
 ```
 
@@ -20,6 +20,7 @@ pip install python-rtmidi
 pip install scikit-image
 pip install sounddevice
 pip install soundfile
+pip install hmmlearn
 ```
 
 # GIT meths
