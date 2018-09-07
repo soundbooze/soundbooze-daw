@@ -4,6 +4,8 @@ mkdir gcc
 cd gcc
 mkdir src
 mkdir build
+mkdir build-binutils
+mkdir build-gcc
 
 wget ftp://ftp.gnu.org/gnu/gcc/gcc-8.2.0/gcc-8.2.0.tar.gz | wget http://ftp.gnu.org/gnu/binutils/binutils-2.31.tar.gz
 
@@ -11,7 +13,6 @@ export PREFIX="$HOME/gcc/build"
 export TARGET=x86_64-elf
 export PATH="$PREFIX/bin:$PATH" 
 
-mkdir build-binutils
 cd build-binutils
 ../src/binutils-2.31/configure --target=$TARGET --prefix="$PREFIX" --with-sysroot --disable-nls --disable-werror
 make
@@ -19,7 +20,6 @@ make install
 
 cd $HOME/src
 
-mkdir build-gcc
 cd build-gcc
 ../src/gcc-8.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
 make all-gcc
