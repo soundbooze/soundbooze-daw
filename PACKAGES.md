@@ -63,7 +63,7 @@ apt-get install qsampler
 apt-get install jack-keyboard
 
 apt-get install cecilia
-apt-get install csound sooperlooper python-pyo
+apt-get install csound python-pyo
 apt-get install aeolus synthv1 hexter qsynth ams
 ```
 
@@ -71,7 +71,7 @@ apt-get install aeolus synthv1 hexter qsynth ams
 
 ```
 apt-get install amsynth zynaddsubfx
-apt-get install fluidsynth
+apt-get install fluidsynth sooperlooper qtractor
 ```
 
 # MIDI Parser
