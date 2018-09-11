@@ -10,7 +10,7 @@
 #include "mustang.h"
 
 int 
-main() { 
+main(int argc, char *argv[]) { 
 
     struct amp_settings amplifier_set;
     struct fx_pedal_settings effects_set[4];
@@ -18,6 +18,9 @@ main() {
     char name[32];
 
     short int i = 0;
+
+    amps ampStart = FENDER_57_DELUXE;
+    amps ampEnd = METAL_2000;
 
     memset(names, 0x00, 100*32);
 
@@ -30,13 +33,31 @@ main() {
       printf("%s\n", names[i]);
     */
 
+    printf ("%d %d %d %d %d %d\n", amplifier_set.gain, amplifier_set.volume, 
+                                   amplifier_set.treble, amplifier_set.middle, 
+                                   amplifier_set.bass, amplifier_set.master_vol);
+
     int slot = 0;
+
     //for (i = 0; i < 25; i++) {
     while (1) {
+      /*
       mustang.load_memory_bank(i++, name, &amplifier_set, effects_set);
       if (i >= 25)
         i = 0;
-      sleep(1);
+        */
+
+      printf ("%d %d %d %d %d %d\n", amplifier_set.gain, amplifier_set.volume, 
+                   amplifier_set.treble, amplifier_set.middle, 
+                   amplifier_set.bass, amplifier_set.master_vol);
+
+      amplifier_set.gain += 10;
+      amplifier_set.volume += 10;
+      amplifier_set.master_vol += 10;
+
+      mustang.set_amplifier(amplifier_set);
+
+      sleep(2);
     }
 
     mustang.stop_amp();
