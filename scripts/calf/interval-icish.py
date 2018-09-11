@@ -87,6 +87,8 @@ def ConnectJack():
     #SOOPERLOOPER1_IN2 = 'sooperlooper:loop1_in_2'
     SOOPERLOOPER1_OUT1 = 'sooperlooper:loop1_out_1'
     SOOPERLOOPER1_OUT2 = 'sooperlooper:loop1_out_2'
+    YOSHIMI_L = 'yoshimi:left'
+    YOSHIMI_R = 'yoshimi:right'
 
     IN1 = "In #1"
     IN2 = "In #2"
@@ -128,8 +130,10 @@ def ConnectJack():
                 client.connect(HYDROGEN2, CALF_MULTIBAND_COMPRESSOR + " " + IN2)
                 client.connect(CALF_MULTIBAND_COMPRESSOR + " " + OUT1, CALF_MULTIBAND_LIMITER + " " + IN1)
                 client.connect(CALF_MULTIBAND_COMPRESSOR + " " + OUT2, CALF_MULTIBAND_LIMITER + " " + IN2)
-                client.connect(CALF_MULTIBAND_LIMITER + " " + OUT1, CALF_REVERB + " " + IN1)
-                client.connect(CALF_MULTIBAND_LIMITER + " " + OUT2, CALF_REVERB + " " + IN2)
+                client.connect(CALF_MULTIBAND_LIMITER + " " + OUT1, CALF_8BAND_EQUALIZER + " " + IN1)
+                client.connect(CALF_MULTIBAND_LIMITER + " " + OUT2, CALF_8BAND_EQUALIZER + " " + IN2)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT1, CALF_REVERB + " " + IN1)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT2, CALF_REVERB + " " + IN2)
                 client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
                 client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
             elif (sys.argv[1] == "sooperlooper"):
@@ -139,6 +143,15 @@ def ConnectJack():
                 client.connect(SOOPERLOOPER0_OUT2, PLAYBACK2)
                 client.connect(SOOPERLOOPER1_OUT1, PLAYBACK1)
                 client.connect(SOOPERLOOPER1_OUT2, PLAYBACK2)
+            elif (sys.argv[1] == "yoshimi"):
+                client.disconnect(YOSHIMI_L, PLAYBACK1)
+                client.disconnect(YOSHIMI_R, PLAYBACK2)
+                client.connect(YOSHIMI_L, CALF_8BAND_EQUALIZER + " " + IN1)
+                client.connect(YOSHIMI_R, CALF_8BAND_EQUALIZER + " " + IN2)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT1, CALF_REVERB + " " + IN1)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT2, CALF_REVERB + " " + IN2)
+                client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
+                client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
 
         except:
             pass
