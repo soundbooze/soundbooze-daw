@@ -90,6 +90,12 @@ def ConnectJack():
     YOSHIMI_L = 'yoshimi:left'
     YOSHIMI_R = 'yoshimi:right'
 
+    AMSYNTH_L = 'amsynth:L out'
+    AMSYNTH_R = 'amsynth:R out'
+
+    QSYNTH_L = 'qsynth:l_00'
+    QSYNTH_R = 'qsynth:r_00'
+
     IN1 = "In #1"
     IN2 = "In #2"
     OUT1 = "Out #1"
@@ -106,7 +112,10 @@ def ConnectJack():
                                  '|' + CALF_8BAND_EQUALIZER + 
                                  '|' + CALF_MULTIBAND_COMPRESSOR +
                                  '|' + CALF_MULTIBAND_LIMITER + 
-                                 '|' + 'sooperlooper' + ')')
+                                 '|' + 'sooperlooper' + 
+                                 '|' + 'amsynth' + 
+                                 '|' + 'qsynth)')
+
     if (regexPort):
 
         try:
@@ -148,6 +157,24 @@ def ConnectJack():
                 client.disconnect(YOSHIMI_R, PLAYBACK2)
                 client.connect(YOSHIMI_L, CALF_8BAND_EQUALIZER + " " + IN1)
                 client.connect(YOSHIMI_R, CALF_8BAND_EQUALIZER + " " + IN2)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT1, CALF_REVERB + " " + IN1)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT2, CALF_REVERB + " " + IN2)
+                client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
+                client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
+            elif (sys.argv[1] == "amsynth"):
+                client.disconnect(AMSYNTH_L, PLAYBACK1)
+                client.disconnect(AMSYNTH_R, PLAYBACK2)
+                client.connect(AMSYNTH_L, CALF_8BAND_EQUALIZER + " " + IN1)
+                client.connect(AMSYNTH_R, CALF_8BAND_EQUALIZER + " " + IN2)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT1, CALF_REVERB + " " + IN1)
+                client.connect(CALF_8BAND_EQUALIZER + " " + OUT2, CALF_REVERB + " " + IN2)
+                client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
+                client.connect(CALF_REVERB + " " + OUT2, PLAYBACK2)
+            elif (sys.argv[1] == "qsynth"):
+                client.disconnect(QSYNTH_L, PLAYBACK1)
+                client.disconnect(QSYNTH_R, PLAYBACK2)
+                client.connect(QSYNTH_L, CALF_8BAND_EQUALIZER + " " + IN1)
+                client.connect(QSYNTH_R, CALF_8BAND_EQUALIZER + " " + IN2)
                 client.connect(CALF_8BAND_EQUALIZER + " " + OUT1, CALF_REVERB + " " + IN1)
                 client.connect(CALF_8BAND_EQUALIZER + " " + OUT2, CALF_REVERB + " " + IN2)
                 client.connect(CALF_REVERB + " " + OUT1, PLAYBACK1)
