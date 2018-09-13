@@ -38,3 +38,4 @@ https://github.com/nodiscc/awesome-linuxaudio
 - https://libremusicproduction.com
 - https://musical-artifacts.com
 - http://www.modernmetalproduction.com
+- http://kxstudio.linuxaudio.org/
