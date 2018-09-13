@@ -16,6 +16,7 @@
 - https://musical-artifacts.com/artifacts/3?class=related-link
 - https://musical-artifacts.com/artifacts/235
 - http://www.skyehaven.net/blog/linux-multimedia-sprint/downloads/hydrogen-drumkits-v2/
+- http://www.audiopluginsforfree.com/linux/lv2/
 
 https://github.com/nodiscc/awesome-linuxaudio
 
