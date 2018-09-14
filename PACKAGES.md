@@ -85,6 +85,7 @@ apt-get install kmidimon midicsv
 ```
 apt-get install drumgizmo
 apt-get install hydrogen gtklick
+apt-get install tk707
 ```
 
 - https://groovemonkee.com/pages/free-midi-loops
