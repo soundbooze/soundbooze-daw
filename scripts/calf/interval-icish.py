@@ -78,8 +78,8 @@ def ConnectJack():
     HYDROGEN1 = 'Hydrogen:out_L'
     HYDROGEN2 = 'Hydrogen:out_R'
 
-    REDZEPPELIN_L = 'Red Zeppelin Drumkit: outL'
-    REDZEPPELIN_R = 'Red Zeppelin Drumkit: outR'
+    REDZEPPELIN_L = 'Red Zeppelin Drumkit:outL'
+    REDZEPPELIN_R = 'Red Zeppelin Drumkit:outR'
 
     SOOPERLOOPER0_IN1 = 'sooperlooper:loop0_in_1'
     SOOPERLOOPER0_IN2 = 'sooperlooper:loop0_in_2'
