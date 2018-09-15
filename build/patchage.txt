@@ -1,0 +1,8 @@
+http://git.drobilla.net/patchage.git/
+
+apt-get install libganv-dev
+apt-get install libdbus-glib-1-dev
+
+./waf configure
+./waf build
+./waf install
