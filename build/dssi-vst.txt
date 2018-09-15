@@ -15,6 +15,10 @@ apt-get install lib32z1-dev
 make
 make install
 
+DSSI_PATH /usr/local/lib/dssi
+VST_PATH  /vstdlls
+
+   jack-dssi-host dssi-vst.so:MyVstPlugin.dll
 
 ** reinstall conflict pkg
 
