@@ -8,14 +8,15 @@ apt-get install wine32-development wine32-development-tools wine32-tools
 apt-get install libzip-dev 
 apt-get install zlib1g-dev zlibc
 
+apt-get install libjack-dev:i386
+
 apt-get install lib32z1-dev
 
 make
 make install
 
 
-** conflict jack (pkg) + jack (custom build lib)
-
+** reinstall conflict pkg
 
 apt-get install dssi-dev
 apt-get install dssi-example-plugins
