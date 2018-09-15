@@ -1,4 +1,4 @@
-/* todo:
+/* helper:
  *
  * g++ cycle.cpp -o cycle `pkg-config --libs --cflags libusb-1.0` mustang.o
  * 
