@@ -1,0 +1,9 @@
+perf trace -F all
+perf top
+perf bench all
+perf stat -B cmd
+perf stat -p pid
+
+echo 0 > /proc/sys/kernel/nmi_watchdog
+perf stat -r 5 sleep 1
+echo 1 > /proc/sys/kernel/nmi_watchdog
