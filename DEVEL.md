@@ -29,6 +29,7 @@ pip install hmmlearn
 - https://github.com/crflynn/stochastic
 - https://github.com/dennybritz/reinforcement-learning
 - https://github.com/bblais/Statistical-Inference-for-Everyone
+- https://github.com/rikrd/loudia
 
 # Misc
 
