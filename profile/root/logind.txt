@@ -1,0 +1,3 @@
+/etc/systemd/logind.conf
+
+#NAutoVTs=6
