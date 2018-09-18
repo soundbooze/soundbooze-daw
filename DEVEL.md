@@ -6,7 +6,7 @@ apt-get install libgsl-dev
 apt-get install python-pyo
 ```
 
-- https://github.com/soundbooze/soundbooze-daw/tree/master/scripts
+- https://github.com/vishnubob/python-midi
 
 # Python
 
