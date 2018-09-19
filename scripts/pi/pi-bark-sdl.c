@@ -143,6 +143,111 @@ bootstrap (void)
   if (open_capture_device() == -1) {
     exit_handler(SIGINT);
   }
+
+   int ret;
+  
+  ret = pthread_create(&id,NULL, &loop, NULL);
+  if (ret != 0){
+    printf("Thread not created.\n");
+  }
+
+  if (SDL_Init(SDL_INIT_VIDEO) == 0) {
+
+    if (SDL_CreateWindowAndRenderer(WIDTH, HEIGHT, 0, &window, &renderer) == 0) {
+
+      SDL_SetWindowTitle(window, "ZapOztasi");
+      SDL_bool done = SDL_FALSE;
+
+      int x = 0;
+
+      while (!done) {
+        SDL_Event event;
+
+        //
+
+        SDL_SetRenderDrawColor(renderer, 0, 0, 255 * bark_coeff[4], 255);
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[4], 255 * bark_coeff[4], 255 * bark_coeff[4], 255);
+        SDL_Rect rectangle4;
+
+        rectangle4.x = x;
+        rectangle4.y = 0;
+        rectangle4.w = 1;
+        rectangle4.h = 100;
+
+        SDL_RenderFillRect(renderer, &rectangle4);
+
+        //
+
+        SDL_SetRenderDrawColor(renderer, 0, 255 * bark_coeff[3], 0, 255);
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[3], 255 * bark_coeff[3], 255 * bark_coeff[3], 255);
+        SDL_Rect rectangle3;
+
+        rectangle3.x = x;
+        rectangle3.y = 101;
+        rectangle3.w = 1;
+        rectangle3.h = 200;
+
+        SDL_RenderFillRect(renderer, &rectangle3);
+
+        //
+        
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[2], 0, 0, 255);
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[2], 255 * bark_coeff[2], 255 * bark_coeff[2], 255);
+        SDL_Rect rectangle2;
+
+        rectangle2.x = x;
+        rectangle2.y = 201;
+        rectangle2.w = 1;
+        rectangle2.h = 300;
+
+        SDL_RenderFillRect(renderer, &rectangle2);
+
+        //
+        
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[1], 255 * bark_coeff[1], 255 * bark_coeff[1], 255);
+        SDL_Rect rectangle1;
+
+        rectangle1.x = x;
+        rectangle1.y = 301;
+        rectangle1.w = 1;
+        rectangle1.h = 400;
+
+        SDL_RenderFillRect(renderer, &rectangle1);
+
+        //
+        
+        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[0], 255 * bark_coeff[0], 255 * bark_coeff[0], 255);
+        SDL_Rect rectangle0;
+
+        rectangle0.x = x++;
+        rectangle0.y = 401;
+        rectangle0.w = 1;
+        rectangle0.h = 500;
+
+        SDL_RenderFillRect(renderer, &rectangle0);
+
+        //
+
+        SDL_RenderPresent(renderer);
+
+        if (x == WIDTH) {
+          x ^= x;
+          SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
+          SDL_RenderClear(renderer);
+        }
+
+        SDL_Delay(10);
+
+        while (SDL_PollEvent(&event)) {
+          if (event.type == SDL_QUIT) {
+            done = SDL_TRUE;
+          }
+        }
+      }
+    }
+
+  }
+
 }
 
 /* --------------- FEATURES (libxtract) */
@@ -274,111 +379,6 @@ main (int argc, char *argv[])
 
   signal(SIGINT, exit_handler);
   bootstrap(); 
-
-  int ret;
-  
-  ret = pthread_create(&id,NULL, &loop, NULL);
-  if (ret != 0){
-    printf("Thread not created.\n");
-    return 0;
-  }
-
-  if (SDL_Init(SDL_INIT_VIDEO) == 0) {
-
-    if (SDL_CreateWindowAndRenderer(WIDTH, HEIGHT, 0, &window, &renderer) == 0) {
-
-      SDL_SetWindowTitle(window, "ZapOztasi");
-      SDL_bool done = SDL_FALSE;
-
-      int x = 0;
-
-      while (!done) {
-        SDL_Event event;
-
-        //
-
-        SDL_SetRenderDrawColor(renderer, 0, 0, 255 * bark_coeff[4], 255);
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[4], 255 * bark_coeff[4], 255 * bark_coeff[4], 255);
-        SDL_Rect rectangle4;
-
-        rectangle4.x = x;
-        rectangle4.y = 0;
-        rectangle4.w = 1;
-        rectangle4.h = 100;
-
-        SDL_RenderFillRect(renderer, &rectangle4);
-
-        //
-
-        SDL_SetRenderDrawColor(renderer, 0, 255 * bark_coeff[3], 0, 255);
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[3], 255 * bark_coeff[3], 255 * bark_coeff[3], 255);
-        SDL_Rect rectangle3;
-
-        rectangle3.x = x;
-        rectangle3.y = 101;
-        rectangle3.w = 1;
-        rectangle3.h = 200;
-
-        SDL_RenderFillRect(renderer, &rectangle3);
-
-        //
-        
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[2], 0, 0, 255);
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[2], 255 * bark_coeff[2], 255 * bark_coeff[2], 255);
-        SDL_Rect rectangle2;
-
-        rectangle2.x = x;
-        rectangle2.y = 201;
-        rectangle2.w = 1;
-        rectangle2.h = 300;
-
-        SDL_RenderFillRect(renderer, &rectangle2);
-
-        //
-        
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[1], 255 * bark_coeff[1], 255 * bark_coeff[1], 255);
-        SDL_Rect rectangle1;
-
-        rectangle1.x = x;
-        rectangle1.y = 301;
-        rectangle1.w = 1;
-        rectangle1.h = 400;
-
-        SDL_RenderFillRect(renderer, &rectangle1);
-
-        //
-        
-        SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[0], 255 * bark_coeff[0], 255 * bark_coeff[0], 255);
-        SDL_Rect rectangle0;
-
-        rectangle0.x = x++;
-        rectangle0.y = 401;
-        rectangle0.w = 1;
-        rectangle0.h = 500;
-
-        SDL_RenderFillRect(renderer, &rectangle0);
-
-        //
-
-        SDL_RenderPresent(renderer);
-
-        if (x == WIDTH) {
-          x ^= x;
-          SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
-          SDL_RenderClear(renderer);
-        }
-
-        SDL_Delay(10);
-
-        while (SDL_PollEvent(&event)) {
-          if (event.type == SDL_QUIT) {
-            done = SDL_TRUE;
-          }
-        }
-      }
-    }
-
-  }
 
   exit (0);
 }
