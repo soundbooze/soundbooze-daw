@@ -1,0 +1,40 @@
+  // #define HEIGHT 780
+  
+//  tebak threshold, set ulang - via permenkaret [semi tara] traverseandresolvealg
+        
+        /*
+        int z = 0;
+
+        for (z = 0; z < XTRACT_BARK_BANDS/2; z++) {
+          SDL_SetRenderDrawColor(renderer, 255 * bark_coeff[z]+bark_coeff[z+1], 0, 0, 255);
+          SDL_Rect rectangle;
+          rectangle.x = x;
+          rectangle.y = z * 30;
+          rectangle.w = 1;
+          rectangle.h = (z * 30) + 30;
+          SDL_RenderFillRect(renderer, &rectangle);
+        }
+        */
+
+        int z = 0;
+        double zsum = 0.0;
+
+        for (z = 0; z < XTRACT_BARK_BANDS; z++) {
+          zsum += bark_coeff[z];
+        }
+
+        printf("%.6f\n", zsum);
+
+        if (zsum < 44.0 && zsum > 26.0) {
+          SDL_SetRenderDrawColor(renderer, 155 * zsum, 0, 0, 255);
+          SDL_Rect rectangle;
+          rectangle.x = x;
+          rectangle.y = 0;
+          rectangle.w = 1;
+          rectangle.h = 50;
+          SDL_RenderFillRect(renderer, &rectangle);
+        }
+
+        x++;
+
+        //
