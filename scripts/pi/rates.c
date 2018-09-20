@@ -1,3 +1,5 @@
+/* cat /proc/asound/card0/stream0 | grep 'Rates:' | awk '{ print $2 }' */
+
 #include <stdio.h>
 #include <string.h> 
 #include <regex.h>
