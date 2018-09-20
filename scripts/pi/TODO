@@ -6,4 +6,60 @@ half spectrum
 code cleanup
 max/optimised
 
-sambil nunggu gitar
+sambil nunggu gitar, naive brute-force
+
+        int z = 0;
+
+        double zsum = 0.0;
+
+        double band1 = 0.0;
+        double band2 = 0.0;
+        double band3 = 0.0;
+
+        for (z = 0; z < XTRACT_BARK_BANDS; z++) {
+          zsum += bark_coeff[z];
+        }
+
+        for (z = 0; z < 7; z++) {
+          band1 += bark_coeff[z];
+        }
+        
+        for (z = 7; z < 14; z++) {
+          band2 += bark_coeff[z];
+        }
+
+        for (z = 14; z < 26; z++) {
+          band3 += bark_coeff[z];
+        }
+
+        if (band1 > 2.1 && band1 < 2.8) {
+          SDL_SetRenderDrawColor(renderer, (rand() % 255 + 100) * band1, 0, 0, 255);
+          SDL_Rect rectangle;
+          rectangle.x = x;
+          rectangle.y = 0;
+          rectangle.w = 1;
+          rectangle.h = 100;
+          SDL_RenderFillRect(renderer, &rectangle);
+        }
+
+        else if (band2 > 4.1 && band2 < 6.8) {
+          SDL_SetRenderDrawColor(renderer, 0, (rand() % 255 + 100) * band2, 0, 255);
+          SDL_Rect rectangle;
+          rectangle.x = x;
+          rectangle.y = 100;
+          rectangle.w = 1;
+          rectangle.h = 100;
+          SDL_RenderFillRect(renderer, &rectangle);
+        }
+
+        else if (band3 > 24.1 && band3 < 36.8) {
+          SDL_SetRenderDrawColor(renderer, 0, 0, (rand() % 255 + 100) * band3, 255);
+          SDL_Rect rectangle;
+          rectangle.x = x;
+          rectangle.y = 200;
+          rectangle.w = 1;
+          rectangle.h = 100;
+          SDL_RenderFillRect(renderer, &rectangle);
+        }
+
+        x++;
