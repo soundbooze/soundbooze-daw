@@ -1,4 +1,6 @@
- xtract_init_bark((frames_t/2) + 1, 48000.0, band_limits);
+ xtract_init_bark((frames_t/2) + 1, 48000.0, band_limits); 
+ int buf_sz = frames_t * ALSA_CHANNEL * 24;
+
 
 half spectrum
 code cleanup
