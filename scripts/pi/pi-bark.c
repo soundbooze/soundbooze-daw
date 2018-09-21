@@ -196,7 +196,7 @@ loop (void)
 
     double *spectrum = NULL, argf[2];
     spectrum = (double *)malloc(frames_t * sizeof(double));
-    argf[0] = 48000.0;
+    argf[0] = rate;
     argf[1] = XTRACT_MAGNITUDE_SPECTRUM;
     xtract_spectrum(buffer_d, frames_t, argf, spectrum);
 
@@ -210,8 +210,17 @@ loop (void)
     // isnan checker
     // spectrum frames_t/2
     
+    // isolated vocal, guitar ....
+    
+    double args[2];
+    args[0] = spectral_mean;
+    args[1] = spectral_stdev;
+    double sskewness;
+    xtract_spectral_skewness(spectrum, frames_t, args,  &sskewness);
+    printf("Spectral Skewness = %.6f\n", sskewness);
+
     int band_limits[XTRACT_BARK_BANDS];
-    xtract_init_bark(frames_t, 48000.0, band_limits);
+    xtract_init_bark(frames_t, rate, band_limits);
     
     double bark_coeff[XTRACT_BARK_BANDS];
     xtract_bark_coefficients(spectrum, frames_t, &band_limits, bark_coeff);
@@ -242,7 +251,7 @@ loop (void)
 
     double srolloff;
     double argz[2];
-    argz[0] = 48000.0/2.0;
+    argz[0] = rate/2.0;
     argz[1] = 0.85;
     xtract_rolloff(spectrum, frames_t, argz, &srolloff);
     printf("Rolloff = %.10e\n", srolloff);
