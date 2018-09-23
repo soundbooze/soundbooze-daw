@@ -22,36 +22,6 @@ ALSA (additional USB guitar cable)
 Note: For reference, ALSA stores its settings in /var/lib/alsa/asound.state
 ```
 
-#### ALSA non-pulseaudio (default direct devices)
-
-- Minimal glitches/clicking/popping
-- Recoding focus
-
-```
-more .asoundrc 
-pcm.!default {
-    type hw
-    card 1
-}
-
-ctl.!default {
-    type hw
-    card 2
-}
-```
-
-#### Pulseaudio JACKD *overload
-
-- overload
-- good for web audio/desktop screen recording/plugin devel - testing/connection shared-buffer
-
-```
-Excessive CPU usage and distortion
-Add a line to /etc/pulse/default.pa
-
-load-module module-udev-detect tsched = 0
-```
-
 <pre>
 # play device
 
