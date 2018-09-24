@@ -1,5 +1,10 @@
 Tone cloud
-
+ ?await in async?
+ - preview 
+ - ... [genre]
+ - .... [effect / amp / tone] semantic
+ - ... source separation
+ 
 ![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/tone/diagram.png "Home")
 
 ekonomi - jangkauan publik
