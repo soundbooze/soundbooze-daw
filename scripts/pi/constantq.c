@@ -2,6 +2,10 @@
 //  gcc fftw.c -o fftw -lfftw3 -lm
 //  https://github.com/JorenSix/TarsosDSP/blob/c26e5004e203ee79be1ec25c2603b1f11b69d276/src/core/be/tarsos/dsp/ConstantQ.java
 
+
+# https://www.gnu.org/software/gsl/doc/html/fft.html#c.gsl_fft_complex_forward
+# https://www.gnu.org/software/gsl///doc/html/movstat.html
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
