@@ -93,6 +93,7 @@ pacmd set-default-source 4
 - raspberry PI preselected 
 - MINIMALIST / non-redudancy
 - arduino sync / preselected apps
+- jackd session port - reconnect on spof
 
 # Packages Installation
 
