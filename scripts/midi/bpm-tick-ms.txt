@@ -1,0 +1,7 @@
+https://github.com/vishnubob/python-midi#Building_a_MIDI_File_from_scratch
+
+>>> 60 * 1000000 / 120
+500000  microseconds per beat
+
+>>> 500000 / 1000 / 1000000.0
+0.00050000000000000001  one tick represents .0005 seconds
