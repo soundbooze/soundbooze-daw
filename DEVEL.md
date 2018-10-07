@@ -24,6 +24,11 @@ pip install soundfile
 pip install hmmlearn
 ```
 
+# Toolbox 
+
+- http://www.pymvpa.org/index.html
+- http://shogun-toolbox.org
+
 # GIT meths
 
 - https://github.com/crflynn/stochastic
