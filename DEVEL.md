@@ -41,6 +41,7 @@ pip install hmmlearn
 
 - https://www.programcreek.com/python/example/89428/cv2.absdiff
 - https://sensorium.github.io/Mozzi/
+- https://github.com/tambien/InteractiveMusic
 
 # Notation
 
