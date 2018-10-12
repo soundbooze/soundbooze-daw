@@ -118,7 +118,7 @@ deb http://deb.opera.com/opera-stable/ stable non-free
 # Misc
 
 ```
-apt-get install oxygencursors
+apt-get install oxygencursors thunar
 ```
 
 ## Unused
