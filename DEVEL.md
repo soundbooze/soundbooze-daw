@@ -32,14 +32,6 @@ pip install soundfile
 - http://www.pymvpa.org/index.html
 - http://shogun-toolbox.org
 
-# GIT meths
-
-- https://github.com/crflynn/stochastic
-- https://github.com/dennybritz/reinforcement-learning
-- https://github.com/bblais/Statistical-Inference-for-Everyone
-- https://github.com/rikrd/loudia
-- https://github.com/eriklindernoren/ML-From-Scratch
-
 # Misc
 
 - https://www.programcreek.com/python/example/89428/cv2.absdiff
