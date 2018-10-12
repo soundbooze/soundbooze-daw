@@ -16,13 +16,16 @@ apt-get install python-opencv libopencv-dev
 pip install JACK-Client alsaseq 
 pip install jackpatch
 pip install pyalsaaudio pyaudio 
-pip install mido deap tensorflow
+pip install mido 
+pip install deap tensorflow keras 
+pip install tensorflowjs
 pip install python-rtmidi
 pip install scikit-image
 pip install sounddevice
 pip install soundfile
-pip install hmmlearn
 ```
+
+- https://wingware.com/
 
 # Toolbox 
 
