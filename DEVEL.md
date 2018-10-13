@@ -23,6 +23,7 @@ pip install python-rtmidi
 pip install scikit-image
 pip install sounddevice
 pip install soundfile
+pip install magenta
 ```
 
 - https://wingware.com/
