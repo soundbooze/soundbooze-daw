@@ -28,6 +28,13 @@ pip install magenta
 
 - https://wingware.com/
 
+# Tensorflow
+
+- https://github.com/tflearn/tflearn
+- https://github.com/aymericdamien/TensorFlow-Examples
+- https://github.com/pkmital/tensorflow_tutorials
+- https://github.com/aymericdamien/awesome-machine-learning
+
 # Toolbox 
 
 - http://www.pymvpa.org/index.html
