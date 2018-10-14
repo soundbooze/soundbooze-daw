@@ -34,6 +34,7 @@ pip install magenta
 - https://github.com/aymericdamien/TensorFlow-Examples
 - https://github.com/pkmital/tensorflow_tutorials
 - https://github.com/aymericdamien/awesome-machine-learning
+- https://github.com/tensorflow/tfjs-converter
 
 # Toolbox 
 
