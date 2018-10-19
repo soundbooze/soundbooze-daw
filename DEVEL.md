@@ -40,6 +40,7 @@ pip install magenta
 
 - http://www.pymvpa.org/index.html
 - http://shogun-toolbox.org
+- https://github.com/alexanderlerch/ACA-Code
 
 # Misc
 
