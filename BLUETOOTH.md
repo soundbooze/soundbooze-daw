@@ -1,5 +1,6 @@
 ```
 # apt-get install bluez-tools bluez
+# systemctl start bluetooth
 ```
 
 
@@ -13,13 +14,16 @@
 
 ```
 # bluetoothctl
+
+[bluetooth]# list
+[bluetooth]# select 11:11:11:11:11:11
 [bluetooth]# power on
 [bluetooth]# agent on
 [bluetooth]# default-agent
 [bluetooth]# scan on
 
-pair 00:1D:43:6D:03:26
-connect 00:1D:43:6D:03:26
+[bluetooth]# pair 74:E5:43:B1:8D:95
+[bluetooth]# connect 74:E5:43:B1:8D:95
 ```
 
 ```
