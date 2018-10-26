@@ -11,6 +11,14 @@ load-module module-bluetooth-policy
 load-module module-bluetooth-discover
 ```
 
+### DBUS
+
+```
+# vim /etc/dbus-1/system.d/pulseaudio-system.conf
+
+ <allow send_destination="org.bluez"/> 
+```
+
 ### HCI Tool
 
 ```
