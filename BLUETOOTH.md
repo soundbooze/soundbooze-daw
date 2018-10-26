@@ -24,6 +24,10 @@ load-module module-bluetooth-discover
 ```
 # hciconfig
 # hcitool -i hci1 scan
+
+# hcitool info 00:11:11:28:07:01
+# rfcomm bind /dev/rfcomm0 00:11:11:28:07:01
+
 ```
 
 ### CTL
