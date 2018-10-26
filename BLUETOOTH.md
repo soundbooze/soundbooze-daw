@@ -39,6 +39,7 @@ load-module module-bluetooth-discover
 [bluetooth]# scan on
 
 [bluetooth]# pair 74:E5:43:B1:8D:95
+[bluetooth]# trust 74:E5:43:B1:8D:95
 [bluetooth]# connect 74:E5:43:B1:8D:95
 ```
 
