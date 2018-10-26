@@ -1,9 +1,17 @@
 ```
 # apt-get install bluez-tools bluez
-# apt-get install  pulseaudio-module-bluetooth
+# apt-get install pulseaudio-module-bluetooth
 # systemctl start bluetooth
 ```
 
+### pulseaudio default.pa
+
+```
+load-module module-bluetooth-policy
+load-module module-bluetooth-discover
+```
+
+### HCI Tool
 
 ```
 # hciconfig
@@ -37,4 +45,4 @@ HID2HCI_UNDO=1
 
 - https://github.com/ev3dev/ev3dev.github.io/pull/24/files/50787e9fae767f4a8e5e1748c5bb70b40eb9f259?short_path=2545682
 - https://wiki.archlinux.org/index.php/Bluetooth_headset
-- https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index4h2
+
