@@ -58,5 +58,11 @@ HID2HCI_UNDO=1
 
 ```
 
+### Debug Log
+
+```
+# journalctl -u bluetooth
+```
+
 - https://github.com/ev3dev/ev3dev.github.io/pull/24/files/50787e9fae767f4a8e5e1748c5bb70b40eb9f259?short_path=2545682
 
