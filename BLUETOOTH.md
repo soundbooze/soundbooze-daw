@@ -1,4 +1,9 @@
 ```
+# apt-get install bluez-tools bluez
+```
+
+
+```
 # hciconfig
 ```
 
