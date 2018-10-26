@@ -27,6 +27,7 @@ load-module module-bluetooth-discover
 
 # hcitool info 00:11:11:28:07:01
 # rfcomm bind /dev/rfcomm0 00:11:11:28:07:01
+# rfcomm release 0
 
 ```
 
