@@ -1,5 +1,6 @@
 ```
 # apt-get install bluez-tools bluez
+# apt-get install  pulseaudio-module-bluetooth
 # systemctl start bluetooth
 ```
 
