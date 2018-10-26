@@ -11,6 +11,12 @@ load-module module-bluetooth-policy
 load-module module-bluetooth-discover
 ```
 
+### Devices
+
+```
+# busctl tree org.bluez
+```
+
 ### DBUS
 
 ```
