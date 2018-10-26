@@ -23,11 +23,10 @@ load-module module-bluetooth-discover
 
 ```
 # hciconfig
-```
-
-```
 # hcitool -i hci1 scan
 ```
+
+### CTL
 
 ```
 # bluetoothctl
@@ -42,6 +41,8 @@ load-module module-bluetooth-discover
 [bluetooth]# pair 74:E5:43:B1:8D:95
 [bluetooth]# connect 74:E5:43:B1:8D:95
 ```
+
+### Config
 
 ```
 # cat /etc/default/bluetooth
