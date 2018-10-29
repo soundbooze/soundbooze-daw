@@ -15,6 +15,12 @@
 
 - http://www.ee.columbia.edu/~dpwe/resources/matlab/sgram/
 
+## Function
+
+- https://www.desmos.com/calculator/vdkjrpznnu
+- https://en.wikipedia.org/wiki/Parallel_curve 
+- https://en.wikipedia.org/wiki/Graph_of_a_function
+
 ## Web Audio
 
 - https://www.html5rocks.com/en/tutorials/audio/scheduling/
