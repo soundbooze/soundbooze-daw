@@ -20,6 +20,7 @@
 - https://www.desmos.com/calculator/vdkjrpznnu
 - https://en.wikipedia.org/wiki/Parallel_curve 
 - https://en.wikipedia.org/wiki/Graph_of_a_function
+- http://mathonweb.com/help_ebook/html/functions_4.htm
 
 ## Web Audio
 
