@@ -21,3 +21,11 @@ sox input.wav output.wav trim 10 20
 ```
 jack_capture -d 11 -p system:capture* -f wav out.wav
 ```
+
+## normalize
+
+```
+sox --norm=-1 in.wav out.wav
+```
+
+- http://billposer.org/Linguistics/Computation/SoxTutorial.html
