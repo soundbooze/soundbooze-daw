@@ -25,6 +25,7 @@ pip install scikit-image
 pip install sounddevice
 pip install soundfile
 pip install magenta
+pip install pyevolve
 ```
 
 - https://wingware.com/
