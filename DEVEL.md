@@ -4,6 +4,7 @@
 apt-get install libportmidi-dev librubberband-dev libfluidsynth-dev 
 apt-get install libgsl-dev 
 apt-get install python-pyo
+apt-get install python-mvpa2
 ```
 
 - https://github.com/vishnubob/python-midi
