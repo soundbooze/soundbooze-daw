@@ -50,6 +50,7 @@ pip install pyevolve
 - https://sensorium.github.io/Mozzi/
 - https://github.com/tambien/InteractiveMusic
 - https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks
+- https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook
 
 # Notation
 
