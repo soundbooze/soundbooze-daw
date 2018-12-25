@@ -28,6 +28,13 @@ pip install magenta
 pip install pyevolve
 ```
 
+### pybrain
+
+```
+ git clone https://github.com/pybrain/pybrain.git
+ python setup.py install
+ ```
+ 
 - https://wingware.com/
 
 # Tensorflow
