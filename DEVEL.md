@@ -28,7 +28,7 @@ pip install magenta
 pip install pyevolve
 ```
 
-### pybrain
+### pybrain (non-pip)
 
 ```
  git clone https://github.com/pybrain/pybrain.git
