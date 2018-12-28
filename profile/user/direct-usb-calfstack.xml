@@ -1,0 +1,148 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="flanger" instance-name="Flanger" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="flanger" name="">
+  <param name="min_delay" value="0.5" />
+  <param name="mod_depth" value="2" />
+  <param name="mod_rate" value="0.030552" />
+  <param name="feedback" value="0.8" />
+  <param name="stereo" value="46.8" />
+  <param name="reset" value="0" />
+  <param name="amount" value="0.5" />
+  <param name="dry" value="1" />
+  <param name="on" value="1" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00474218" />
+  <param name="meter_inR" value="0.00474218" />
+  <param name="meter_outL" value="0.00689732" />
+  <param name="meter_outR" value="0.00506378" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="lfo" value="1" />
+</preset>
+</plugin>
+<plugin type="saturator" instance-name="Saturator" input-index="3" output-index="3">
+<preset bank="0" program="0" plugin="saturator" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00689732" />
+  <param name="meter_inR" value="0.00506378" />
+  <param name="meter_outL" value="0.00776732" />
+  <param name="meter_outR" value="0.00562209" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mix" value="0.712" />
+  <param name="drive" value="2.8616" />
+  <param name="blend" value="7.68" />
+  <param name="lp_pre_freq" value="20000" />
+  <param name="hp_pre_freq" value="10" />
+  <param name="lp_post_freq" value="20000" />
+  <param name="hp_post_freq" value="10" />
+  <param name="p_freq" value="2000" />
+  <param name="p_level" value="1" />
+  <param name="p_q" value="1" />
+  <param name="pre" value="0" />
+  <param name="post" value="0" />
+</preset>
+</plugin>
+<plugin type="crusher" instance-name="Crusher" input-index="5" output-index="5">
+<preset bank="0" program="0" plugin="crusher" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00776732" />
+  <param name="meter_inR" value="0.00562209" />
+  <param name="meter_outL" value="0.00775507" />
+  <param name="meter_outR" value="0.00562581" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="bits" value="13.3985" />
+  <param name="morph" value="0.5" />
+  <param name="mode" value="0" />
+  <param name="dc" value="1" />
+  <param name="anti_aliasing" value="0.5" />
+  <param name="samples" value="1" />
+  <param name="lfo" value="0" />
+  <param name="lforange" value="20" />
+  <param name="lforate" value="0.3" />
+</preset>
+</plugin>
+<plugin type="vintagedelay" instance-name="Vintage Delay" input-index="7" output-index="7">
+<preset bank="0" program="0" plugin="vintagedelay" name="">
+  <param name="on" value="1" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00775507" />
+  <param name="meter_inR" value="0.00562581" />
+  <param name="meter_outL" value="0.00863198" />
+  <param name="meter_outR" value="0.00691276" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="subdiv" value="4" />
+  <param name="time_l" value="3" />
+  <param name="time_r" value="5" />
+  <param name="feedback" value="0.5" />
+  <param name="amount" value="0.25" />
+  <param name="mix_mode" value="1" />
+  <param name="medium" value="0" />
+  <param name="dry" value="1" />
+  <param name="width" value="1" />
+  <param name="fragmentation" value="0" />
+  <param name="pbeats" value="4" />
+  <param name="pfrag" value="4" />
+  <param name="timing" value="0" />
+  <param name="bpm" value="105.24" />
+  <param name="ms" value="500" />
+  <param name="hz" value="2" />
+  <param name="bpm_host" value="120" />
+</preset>
+</plugin>
+<plugin type="eq5" instance-name="Equalizer 5 Band" input-index="9" output-index="9">
+<preset bank="0" program="0" plugin="eq5" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00863198" />
+  <param name="meter_inR" value="0.00691276" />
+  <param name="meter_outL" value="0.00974759" />
+  <param name="meter_outR" value="0.00823812" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="ls_active" value="1" />
+  <param name="ls_level" value="0.305167" />
+  <param name="ls_freq" value="86.1154" />
+  <param name="ls_q" value="0.707" />
+  <param name="hs_active" value="1" />
+  <param name="hs_level" value="3.49103" />
+  <param name="hs_freq" value="5844.99" />
+  <param name="hs_q" value="0.707" />
+  <param name="p1_active" value="1" />
+  <param name="p1_level" value="0.840231" />
+  <param name="p1_freq" value="260.91" />
+  <param name="p1_q" value="1" />
+  <param name="p2_active" value="1" />
+  <param name="p2_level" value="1.04862" />
+  <param name="p2_freq" value="955.192" />
+  <param name="p2_q" value="1" />
+  <param name="p3_active" value="1" />
+  <param name="p3_level" value="3.83876" />
+  <param name="p3_freq" value="2064.09" />
+  <param name="p3_q" value="1" />
+  <param name="individuals" value="1" />
+  <param name="zoom" value="0.25" />
+  <param name="analyzer" value="1" />
+  <param name="analyzer_mode" value="1" />
+</preset>
+</plugin>
+</rack>
