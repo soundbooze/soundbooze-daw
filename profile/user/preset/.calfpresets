@@ -726,7 +726,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="flanger" name="UDUK-Sweetener">
+<preset bank="0" program="3" plugin="flanger" name="UDUK-Sweetener">
   <param name="min_delay" value="10" />
   <param name="mod_depth" value="2.08435" />
   <param name="mod_rate" value="0.0373837" />
@@ -747,5 +747,54 @@
   <param name="clip_outL" value="0" />
   <param name="clip_outR" value="0" />
   <param name="lfo" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="eq8" name="Guitar">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.0005574" />
+  <param name="meter_inR" value="0.0005574" />
+  <param name="meter_outL" value="0.000795037" />
+  <param name="meter_outR" value="0.000795037" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="hp_active" value="0" />
+  <param name="hp_freq" value="30" />
+  <param name="hp_mode" value="1" />
+  <param name="hp_q" value="0.707" />
+  <param name="lp_active" value="1" />
+  <param name="lp_freq" value="18000" />
+  <param name="lp_mode" value="1" />
+  <param name="lp_q" value="0.707" />
+  <param name="ls_active" value="0" />
+  <param name="ls_level" value="0.788692" />
+  <param name="ls_freq" value="34.7711" />
+  <param name="ls_q" value="0.707" />
+  <param name="hs_active" value="1" />
+  <param name="hs_level" value="0.840231" />
+  <param name="hs_freq" value="5746.84" />
+  <param name="hs_q" value="0.707" />
+  <param name="p1_active" value="0" />
+  <param name="p1_level" value="1.01595" />
+  <param name="p1_freq" value="129.145" />
+  <param name="p1_q" value="1" />
+  <param name="p2_active" value="1" />
+  <param name="p2_level" value="1.8537" />
+  <param name="p2_freq" value="150.318" />
+  <param name="p2_q" value="1" />
+  <param name="p3_active" value="1" />
+  <param name="p3_level" value="1.68579" />
+  <param name="p3_freq" value="798.52" />
+  <param name="p3_q" value="1" />
+  <param name="p4_active" value="0" />
+  <param name="p4_level" value="0.368988" />
+  <param name="p4_freq" value="14923.5" />
+  <param name="p4_q" value="1" />
+  <param name="individuals" value="1" />
+  <param name="zoom" value="0.25" />
+  <param name="analyzer" value="1" />
+  <param name="analyzer_mode" value="0" />
 </preset>
 </presets>

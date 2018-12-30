@@ -18833,7 +18833,7 @@
       "mxrdis.position": 15,
       "mxrdis.pp": "pre",
       "noise_gate.on_off": 1,
-      "noise_gate.threshold": 0.1315,
+      "noise_gate.threshold": 0.28,
       "oscilloscope.on_off": 0,
       "oscilloscope.position": 11,
       "oscilloscope.pp": "post",
