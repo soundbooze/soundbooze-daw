@@ -516,22 +516,22 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="2" plugin="flanger" name="UDUK-USB-2">
+<preset bank="0" program="0" plugin="flanger" name="UDUK-USB-2">
   <param name="min_delay" value="0.36557" />
   <param name="mod_depth" value="2" />
-  <param name="mod_rate" value="0.0614801" />
+  <param name="mod_rate" value="0.0254575" />
   <param name="feedback" value="0.8" />
   <param name="stereo" value="346.32" />
   <param name="reset" value="0" />
   <param name="amount" value="0.5" />
   <param name="dry" value="1" />
-  <param name="on" value="1" />
-  <param name="level_in" value="0.497235" />
+  <param name="on" value="0" />
+  <param name="level_in" value="0.231326" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.00295491" />
-  <param name="meter_inR" value="0.00295491" />
-  <param name="meter_outL" value="0.00268735" />
-  <param name="meter_outR" value="0.00296811" />
+  <param name="meter_inL" value="0.000550313" />
+  <param name="meter_inR" value="0.000550313" />
+  <param name="meter_outL" value="0.000550313" />
+  <param name="meter_outR" value="0.000550313" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outL" value="0" />
@@ -689,7 +689,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="eq5" name="DirectUSB-Zlooper">
+<preset bank="0" program="5" plugin="eq5" name="DirectUSB-Zlooper">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
