@@ -516,7 +516,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="flanger" name="UDUK-USB-2">
+<preset bank="0" program="2" plugin="flanger" name="UDUK-USB-2">
   <param name="min_delay" value="0.36557" />
   <param name="mod_depth" value="2" />
   <param name="mod_rate" value="0.0254575" />
@@ -725,5 +725,27 @@
   <param name="zoom" value="0.25" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="flanger" name="UDUK-Sweetener">
+  <param name="min_delay" value="10" />
+  <param name="mod_depth" value="2.08435" />
+  <param name="mod_rate" value="0.0373837" />
+  <param name="feedback" value="0.0683999" />
+  <param name="stereo" value="90" />
+  <param name="reset" value="0" />
+  <param name="amount" value="0.632878" />
+  <param name="dry" value="1" />
+  <param name="on" value="1" />
+  <param name="level_in" value="0.670821" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.000138809" />
+  <param name="meter_inR" value="0.000138809" />
+  <param name="meter_outL" value="0.000162314" />
+  <param name="meter_outR" value="0.000177972" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="lfo" value="1" />
 </preset>
 </presets>
