@@ -797,7 +797,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="0" />
 </preset>
-<preset bank="0" program="0" plugin="eq8" name="Groove-Delay">
+<preset bank="0" program="5" plugin="eq8" name="Groove-Delay">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
@@ -845,5 +845,30 @@
   <param name="zoom" value="0.25" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="0" />
+</preset>
+<preset bank="0" program="0" plugin="saturator" name="UDUK-Sweetened">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.000156305" />
+  <param name="meter_inR" value="0.000156335" />
+  <param name="meter_outL" value="0.000243041" />
+  <param name="meter_outR" value="0.000243166" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mix" value="0.808" />
+  <param name="drive" value="7.3364" />
+  <param name="blend" value="6.8" />
+  <param name="lp_pre_freq" value="20000" />
+  <param name="hp_pre_freq" value="10" />
+  <param name="lp_post_freq" value="20000" />
+  <param name="hp_post_freq" value="10" />
+  <param name="p_freq" value="2000" />
+  <param name="p_level" value="1" />
+  <param name="p_q" value="1" />
+  <param name="pre" value="0" />
+  <param name="post" value="0" />
 </preset>
 </presets>
