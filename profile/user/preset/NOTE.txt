@@ -1,6 +1,9 @@
 tubescreamer : drive, level
 
+calf-flanger: amount : -31db
+calf-limiter: 12db/oct 7000+-
 calf-eq 
+
 alias calfusb='calfjackhost flanger ! saturator ! crusher ! vintagedelay ! eq5 !'
 
 jack_capture -d 20 -p "Calf Studio Gear:Equalizer*" -f wav out.wav
