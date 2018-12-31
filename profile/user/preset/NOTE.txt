@@ -1,2 +1,4 @@
 tubescreamer : drive, level
 calf-eq 
+
+jack_capture -d 20 -p "Calf Studio Gear:Equalizer*" -f wav out.wav
