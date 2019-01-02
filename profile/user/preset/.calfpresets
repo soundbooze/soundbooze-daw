@@ -912,10 +912,10 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1.70291" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.0311009" />
-  <param name="meter_inR" value="0.0312517" />
-  <param name="meter_outL" value="0.0247125" />
-  <param name="meter_outR" value="0.0248956" />
+  <param name="meter_inL" value="0.000510122" />
+  <param name="meter_inR" value="0.000508294" />
+  <param name="meter_outL" value="0.000405874" />
+  <param name="meter_outR" value="0.000404365" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outL" value="0" />
@@ -929,12 +929,12 @@
   <param name="hs_freq" value="8085.07" />
   <param name="hs_q" value="0.707" />
   <param name="p1_active" value="1" />
-  <param name="p1_level" value="0.71725" />
-  <param name="p1_freq" value="227.919" />
+  <param name="p1_level" value="0.953634" />
+  <param name="p1_freq" value="178.693" />
   <param name="p1_q" value="1" />
   <param name="p2_active" value="1" />
-  <param name="p2_level" value="1.08234" />
-  <param name="p2_freq" value="571.477" />
+  <param name="p2_level" value="1.01595" />
+  <param name="p2_freq" value="519.88" />
   <param name="p2_q" value="1" />
   <param name="p3_active" value="1" />
   <param name="p3_level" value="0.446155" />
