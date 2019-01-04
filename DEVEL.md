@@ -58,6 +58,7 @@ pip install pyevolve
 - https://github.com/tambien/InteractiveMusic
 - https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks
 - https://github.com/PacktPublishing/Python-Machine-Learning-Cookbook
+- https://github.com/ZulfadhliM/python-mir/blob/master/PitchEstimation.py
 
 # Notation
 
