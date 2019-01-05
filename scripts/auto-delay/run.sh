@@ -1,6 +1,7 @@
 #!/bin/sh
 
-mod-host
+mod-host &
+sleep 2
 python init.py > /dev/null 2>&1
 
 while [ 1 ]
