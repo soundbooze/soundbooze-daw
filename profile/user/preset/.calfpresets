@@ -1001,35 +1001,35 @@
 </preset>
 <preset bank="0" program="0" plugin="eq5" name="UDUK-EV">
   <param name="bypass" value="0" />
-  <param name="level_in" value="2.01112" />
+  <param name="level_in" value="1.3491" />
   <param name="level_out" value="1.70291" />
-  <param name="meter_inL" value="0.0390607" />
-  <param name="meter_inR" value="0.0390607" />
-  <param name="meter_outL" value="0.0641" />
-  <param name="meter_outR" value="0.0641" />
+  <param name="meter_inL" value="0.126793" />
+  <param name="meter_inR" value="0.126793" />
+  <param name="meter_outL" value="0.294654" />
+  <param name="meter_outR" value="0.294654" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outL" value="0" />
   <param name="clip_outR" value="0" />
   <param name="ls_active" value="1" />
-  <param name="ls_level" value="0.923923" />
-  <param name="ls_freq" value="70.3102" />
+  <param name="ls_level" value="1.43905" />
+  <param name="ls_freq" value="73.2202" />
   <param name="ls_q" value="0.707" />
   <param name="hs_active" value="1" />
-  <param name="hs_level" value="0.673254" />
-  <param name="hs_freq" value="6425.09" />
+  <param name="hs_level" value="1.01595" />
+  <param name="hs_freq" value="6691.01" />
   <param name="hs_q" value="0.707" />
   <param name="p1_active" value="1" />
-  <param name="p1_level" value="1.58238" />
-  <param name="p1_freq" value="173.926" />
+  <param name="p1_level" value="1.30869" />
+  <param name="p1_freq" value="176.293" />
   <param name="p1_q" value="1" />
   <param name="p2_active" value="1" />
-  <param name="p2_level" value="0.923923" />
-  <param name="p2_freq" value="499.218" />
+  <param name="p2_level" value="1.35078" />
+  <param name="p2_freq" value="430.24" />
   <param name="p2_q" value="1" />
   <param name="p3_active" value="1" />
-  <param name="p3_level" value="0.694904" />
-  <param name="p3_freq" value="2362.85" />
+  <param name="p3_level" value="1.01595" />
+  <param name="p3_freq" value="2395.01" />
   <param name="p3_q" value="1" />
   <param name="individuals" value="1" />
   <param name="zoom" value="0.25" />
