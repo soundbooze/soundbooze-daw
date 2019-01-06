@@ -1,6 +1,7 @@
 ```
 guitarix OSEM
-alias acousticladspa='carla-single ladspa /usr/lib/ladspa/tap_tubewarmth.so & carla-single ladspa /usr/lib/ladspa/tap_dynamics_st.so &'
+
+alias acousticladspa='carla-single ladspa /usr/lib/ladspa/tap_tubewarmth.so & carla-single ladspa /usr/lib/ladspa/tap_dynamics_st.so & carla-single ladspa /usr/lib/ladspa/stereo-plugins.so &'
 
 + calf multiband enhancer
 + rakarrack nostalgia
