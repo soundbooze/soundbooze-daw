@@ -999,7 +999,7 @@
   <param name="floor_active" value="1" />
   <param name="floor" value="20" />
 </preset>
-<preset bank="0" program="0" plugin="eq5" name="UDUK-EV">
+<preset bank="0" program="9" plugin="eq5" name="UDUK-EV">
   <param name="bypass" value="0" />
   <param name="level_in" value="1.3491" />
   <param name="level_out" value="1.70291" />
@@ -1035,5 +1035,38 @@
   <param name="zoom" value="0.25" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="multibandenhancer" name="OSEM-clean">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00201781" />
+  <param name="meter_inR" value="0.00201781" />
+  <param name="meter_outL" value="0.00198399" />
+  <param name="meter_outR" value="0.00198399" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="freq0" value="56.0403" />
+  <param name="freq1" value="405.904" />
+  <param name="freq2" value="1584.39" />
+  <param name="mode" value="1" />
+  <param name="base0" value="0" />
+  <param name="base1" value="0" />
+  <param name="base2" value="0" />
+  <param name="base3" value="0" />
+  <param name="drive0" value="0" />
+  <param name="drive1" value="0" />
+  <param name="drive2" value="0" />
+  <param name="drive3" value="0" />
+  <param name="blend0" value="0" />
+  <param name="blend1" value="0" />
+  <param name="blend2" value="0" />
+  <param name="blend3" value="0" />
+  <param name="solo0" value="0" />
+  <param name="solo1" value="0" />
+  <param name="solo2" value="0" />
+  <param name="solo3" value="0" />
 </preset>
 </presets>
