@@ -39,6 +39,9 @@ bpm = float(sys.argv[1]) / 2.0
 
 send_command('param_set 0 bpm_host %f' % bpm)
 send_command('param_set 0 bpm %f' % bpm)
-send_command('param_set 0 mix_mode 0')
+send_command('param_set 0 mix_mode 2')
+send_command('param_set 0 medium 0')
+send_command('param_set 0 time_l 2')
+send_command('param_set 0 time_r 2')
 
 #send_command('remove 0')
