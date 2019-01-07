@@ -1036,21 +1036,21 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="1" plugin="multibandenhancer" name="OSEM-clean">
+<preset bank="0" program="0" plugin="multibandenhancer" name="OSEM-clean">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.00201781" />
-  <param name="meter_inR" value="0.00201781" />
-  <param name="meter_outL" value="0.00198399" />
-  <param name="meter_outR" value="0.00198399" />
+  <param name="meter_inL" value="0.0306763" />
+  <param name="meter_inR" value="0.0306763" />
+  <param name="meter_outL" value="0.0260787" />
+  <param name="meter_outR" value="0.0260787" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outL" value="0" />
   <param name="clip_outR" value="0" />
-  <param name="freq0" value="56.0403" />
-  <param name="freq1" value="405.904" />
-  <param name="freq2" value="1584.39" />
+  <param name="freq0" value="54.5541" />
+  <param name="freq1" value="150.147" />
+  <param name="freq2" value="629.629" />
   <param name="mode" value="1" />
   <param name="base0" value="0" />
   <param name="base1" value="0" />
@@ -1069,7 +1069,7 @@
   <param name="solo2" value="0" />
   <param name="solo3" value="0" />
 </preset>
-<preset bank="0" program="0" plugin="eq5" name="OSEM-Clean">
+<preset bank="0" program="10" plugin="eq5" name="OSEM-Clean">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
