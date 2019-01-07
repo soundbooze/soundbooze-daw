@@ -585,24 +585,24 @@
   <param name="lforange" value="20" />
   <param name="lforate" value="0.3" />
 </preset>
-<preset bank="0" program="2" plugin="vintagedelay" name="UDUK-USB-2">
+<preset bank="0" program="0" plugin="vintagedelay" name="UDUK-USB-2">
   <param name="on" value="1" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.078648" />
-  <param name="meter_inR" value="0.0694515" />
-  <param name="meter_outL" value="0.0663338" />
-  <param name="meter_outR" value="0.0703482" />
+  <param name="meter_inL" value="0.0374829" />
+  <param name="meter_inR" value="0.0374829" />
+  <param name="meter_outL" value="0.0525807" />
+  <param name="meter_outR" value="0.0525807" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outL" value="0" />
   <param name="clip_outR" value="0" />
-  <param name="subdiv" value="8" />
-  <param name="time_l" value="8" />
-  <param name="time_r" value="9" />
-  <param name="feedback" value="0.712" />
+  <param name="subdiv" value="4" />
+  <param name="time_l" value="3" />
+  <param name="time_r" value="3" />
+  <param name="feedback" value="0.408" />
   <param name="amount" value="0.25" />
-  <param name="mix_mode" value="1" />
+  <param name="mix_mode" value="0" />
   <param name="medium" value="0" />
   <param name="dry" value="1" />
   <param name="width" value="1" />
@@ -610,7 +610,7 @@
   <param name="pbeats" value="4" />
   <param name="pfrag" value="4" />
   <param name="timing" value="0" />
-  <param name="bpm" value="85.8" />
+  <param name="bpm" value="87.96" />
   <param name="ms" value="500" />
   <param name="hz" value="2" />
   <param name="bpm_host" value="120" />
@@ -1036,7 +1036,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="multibandenhancer" name="OSEM-clean">
+<preset bank="0" program="1" plugin="multibandenhancer" name="OSEM-clean">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
