@@ -4,6 +4,8 @@
 
 ![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/bingung-not.png "Home")
 
+<b>Frames/Period : 256</b>
+
 ```
 JACK
 
