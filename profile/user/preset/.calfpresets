@@ -585,7 +585,7 @@
   <param name="lforange" value="20" />
   <param name="lforate" value="0.3" />
 </preset>
-<preset bank="0" program="0" plugin="vintagedelay" name="UDUK-USB-2">
+<preset bank="0" program="2" plugin="vintagedelay" name="UDUK-USB-2">
   <param name="on" value="1" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
@@ -1105,5 +1105,25 @@
   <param name="zoom" value="0.25" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="multispread" name="OSEM-Clean">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.0069305" />
+  <param name="meter_inR" value="0.0069305" />
+  <param name="meter_outL" value="0.0069305" />
+  <param name="meter_outR" value="0.0069305" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mono" value="0" />
+  <param name="filters" value="2" />
+  <param name="amount0" value="21.3476" />
+  <param name="amount1" value="6.88759" />
+  <param name="amount2" value="2.07916" />
+  <param name="amount3" value="3.91225" />
+  <param name="intensity" value="1" />
 </preset>
 </presets>
