@@ -81,6 +81,8 @@ apt-get install fluidsynth sooperlooper qtractor
 apt-get install kmidimon midicsv
 ```
 
+https://www.midieditor.org/
+
 # Drum & Metronome
 
 ```
