@@ -1,0 +1,7 @@
+ 2. Clone muse source with command: 
+ 'git clone https://github.com/muse-sequencer/muse.git'
+ 3. Type 'cd muse/muse3'
+ 4. Type './compile_muse.sh' and wait until it is finished
+ 5. Type 'cd build'
+ 6. Type `sudo make install` - this will install muse3 to /usr/local
+ 7. Run it by typing `muse3`
