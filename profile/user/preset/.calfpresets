@@ -1126,7 +1126,7 @@
   <param name="amount3" value="3.91225" />
   <param name="intensity" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="eq5" name="OSEM-WAH">
+<preset bank="0" program="11" plugin="eq5" name="OSEM-WAH">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
@@ -1162,5 +1162,72 @@
   <param name="zoom" value="0.25" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
+</preset>
+<preset bank="0" program="12" plugin="eq5" name="Relief">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="3.42475" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="3.18752e-05" />
+  <param name="meter_inR" value="3.18752e-05" />
+  <param name="meter_outL" value="5.41113e-05" />
+  <param name="meter_outR" value="5.41113e-05" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="ls_active" value="1" />
+  <param name="ls_level" value="1.48532" />
+  <param name="ls_freq" value="99.9218" />
+  <param name="ls_q" value="0.707" />
+  <param name="hs_active" value="1" />
+  <param name="hs_level" value="1.68579" />
+  <param name="hs_freq" value="5462.97" />
+  <param name="hs_q" value="0.707" />
+  <param name="p1_active" value="1" />
+  <param name="p1_level" value="1.8537" />
+  <param name="p1_freq" value="298.675" />
+  <param name="p1_q" value="1" />
+  <param name="p2_active" value="1" />
+  <param name="p2_level" value="2.03834" />
+  <param name="p2_freq" value="672.123" />
+  <param name="p2_q" value="1" />
+  <param name="p3_active" value="1" />
+  <param name="p3_level" value="1.58238" />
+  <param name="p3_freq" value="2208.43" />
+  <param name="p3_q" value="1" />
+  <param name="individuals" value="1" />
+  <param name="zoom" value="0.25" />
+  <param name="analyzer" value="1" />
+  <param name="analyzer_mode" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="vintagedelay" name="Relief">
+  <param name="on" value="1" />
+  <param name="level_in" value="1.3491" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="6.56968e-05" />
+  <param name="meter_inR" value="6.56968e-05" />
+  <param name="meter_outL" value="6.50116e-05" />
+  <param name="meter_outR" value="6.99124e-05" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="subdiv" value="4" />
+  <param name="time_l" value="3" />
+  <param name="time_r" value="3" />
+  <param name="feedback" value="0.408" />
+  <param name="amount" value="0.25" />
+  <param name="mix_mode" value="3" />
+  <param name="medium" value="0" />
+  <param name="dry" value="1" />
+  <param name="width" value="1" />
+  <param name="fragmentation" value="0" />
+  <param name="pbeats" value="4" />
+  <param name="pfrag" value="4" />
+  <param name="timing" value="0" />
+  <param name="bpm" value="61.3497" />
+  <param name="ms" value="500" />
+  <param name="hz" value="2" />
+  <param name="bpm_host" value="120" />
 </preset>
 </presets>
