@@ -1200,7 +1200,7 @@
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
 </preset>
-<preset bank="0" program="0" plugin="vintagedelay" name="Relief">
+<preset bank="0" program="3" plugin="vintagedelay" name="Relief">
   <param name="on" value="1" />
   <param name="level_in" value="1.3491" />
   <param name="level_out" value="1" />
@@ -1229,5 +1229,28 @@
   <param name="ms" value="500" />
   <param name="hz" value="2" />
   <param name="bpm_host" value="120" />
+</preset>
+<preset bank="0" program="0" plugin="analyzer" name="Wave">
+  <param name="meter_L" value="0" />
+  <param name="meter_R" value="0" />
+  <param name="clip_L" value="0" />
+  <param name="clip_R" value="0" />
+  <param name="analyzer_level" value="1.25" />
+  <param name="analyzer_mode" value="3" />
+  <param name="analyzer_scale" value="0" />
+  <param name="analyzer_post" value="0" />
+  <param name="analyzer_view" value="1" />
+  <param name="analyzer_smoothing" value="0" />
+  <param name="analyzer_windowing" value="1" />
+  <param name="analyzer_accuracy" value="7" />
+  <param name="analyzer_speed" value="15" />
+  <param name="analyzer_display" value="1" />
+  <param name="analyzer_hold" value="0" />
+  <param name="analyzer_freeze" value="0" />
+  <param name="gonio_mode" value="0" />
+  <param name="gonio_use_fade" value="0" />
+  <param name="gonio_fade" value="0.5" />
+  <param name="gonio_accuracy" value="4" />
+  <param name="gonio_display" value="0" />
 </preset>
 </presets>
