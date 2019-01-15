@@ -53,7 +53,7 @@ https://www.polyphone-soundfonts.com/en/download
 # Rubberband
 
 ```
-apt-get install rubberband-cli rubberband-vamp rubberband-ladspa
+apt-get install rubberband-cli rubberband-vamp rubberband-ladspa vocproc
 ```
 
 # MIDI synth host
