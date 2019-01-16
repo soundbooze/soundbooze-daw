@@ -1,0 +1,239 @@
+(
+  Applications,
+  (
+    Applications,
+    (Xterm, EXEC, "xterm -fn 9x15 -bg black -fg grey +sb"),
+    (Thunar, EXEC, thunar),
+    ("Wing IDE", EXEC, "wing-personal6.1"),
+    (Chromium, EXEC, chromium),
+    (Firefox, EXEC, "firefox-esr"),
+    (VLC, EXEC, vlc),
+    (GVim, EXEC, gvim),
+    ("Screen Recorder", EXEC, simplescreenrecorder),
+    ("Green Recorder", EXEC, "green-recorder"),
+    (Krita, EXEC, krita),
+    (Gimp, EXEC, gimp),
+    (Blender, EXEC, blender),
+    (Openshot, EXEC, openshot),
+    (Weka, EXEC, "java -jar /opt/weka-3-8-3/weka.jar")
+  ),
+  (
+    Audio,
+    (
+      Guitar,
+      (
+        "Calf Stack",
+        EXEC,
+        "calfjackhost flanger ! saturator ! crusher ! eq5 ! vintagedelay !"
+      ),
+      (
+        "Calf Acoustic",
+        EXEC,
+        "calfjackhost eq5 ! vintagedelay ! multibandenhancer !"
+      ),
+      (
+        "Ladspa Tube",
+        SHEXEC,
+        "carla-single ladspa /usr/lib/ladspa/tap_tubewarmth.so & carla-single ladspa /usr/lib/ladspa/tap_dynamics_st.so & carla-single ladspa /usr/lib/ladspa/stereo-plugins.so"
+      ),
+      (Guitarix, EXEC, guitarix),
+      (Rakarrack, EXEC, rakarrack),
+      (TuxGuitar, EXEC, tuxguitar),
+      ("Fender Plug", EXEC, plug),
+      (GtKlick, EXEC, gtklick)
+    ),
+    (
+      Synth,
+      (Helm, EXEC, helm),
+      (Qsynth, EXEC, qsynth),
+      (Amsynth, EXEC, amsynth),
+      (Synthv1, EXEC, synthv1_jack),
+      (SpectMorph, EXEC, smjack),
+      (ZynaddSubFX, EXEC, zynaddsubfx),
+      (Hexter, EXEC, "jack-dssi-host /usr/lib/dssi/hexter.so"),
+      (AMS, EXEC, ams),
+      (TK707, EXEC, "tk707 -p 14:0"),
+      (QSampler, EXEC, qsampler),
+      (Yoshimi, EXEC, yoshimi),
+      (Whysynth, EXEC, "jack-dssi-host /usr/local/lib/dssi/whysynth.so")
+    ),
+    (
+      Drum,
+      (
+        "Calf Stack",
+        EXEC,
+        "calfjackhost multibandcompressor ! multibandlimiter ! eq8 ! reverb !"
+      ),
+      (Hydrogen, EXEC, hydrogen)
+    ),
+    (Ardour, EXEC, ardour6),
+    (Audacity, EXEC, audacity),
+    (Patchage, EXEC, patchage),
+    ("Jack Keyboard", EXEC, "jack-keyboard"),
+    ("Sonic Visualiser", EXEC, "sonic-visualiser"),
+    (Spek, EXEC, spek),
+    (Polyphone, EXEC, polyphone),
+    (SooperLooper, EXEC, slgui),
+    ("MIDI Editor", EXEC, midieditor),
+    ("MIDI Monitor", EXEC, kmidimon)
+  ),
+  (
+    Scripts,
+    (
+      Jackd,
+      EXEC,
+      "/usr/local/bin/jackd -p128 -t10000 -dalsa -r44100 -p1024 -n2 -m -S -M -D -Chw:1 -Phw:0"
+    ),
+    ("PulseAudio Start", EXEC, "pulseaudio -D"),
+    ("PulseAudio Stop", EXEC, "pulseaudio -k"),
+    (
+      "Red Zeppelin Start",
+      EXEC,
+      "jalv http://gareus.org/oss/lv2/avldrums#RedZeppelin"
+    ),
+    ("Red Zeppelin Stop", SHEXEC, "kill `pgrep jalv`"),
+    (
+      "Black Pearl Start",
+      EXEC,
+      "jalv http://gareus.org/oss/lv2/avldrums#BlackPearl"
+    ),
+    ("Black Pearl Stop", SHEXEC, "kill `pgrep jalv`"),
+    (
+      A2JMIDI,
+      EXEC,
+      "xterm -geometry 76x14+275+28 -fn 6x13 -bg black -fg grey -e a2jmidid"
+    )
+  ),
+  (Run..., EXEC, "%a(Run,Type command to run:)"),
+  (Workspaces, WORKSPACE_MENU),
+  (
+    Appearance,
+    (
+      Themes,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Themes $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+    ),
+    (
+      Styles,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Styles $HOME/GNUstep/Library/WindowMaker/Styles WITH setstyle"
+    ),
+    (
+      "Icon Sets",
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/IconSets $HOME/GNUstep/Library/WindowMaker/IconSets WITH seticons"
+    ),
+    (
+      Background,
+      (
+        Solid,
+        (Black, EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, black)'"),
+        (
+          Blue,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#505075\")'"
+        ),
+        (
+          Indigo,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#243e6c\")'"
+        ),
+        (
+          Bluemarine,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#224477\")'"
+        ),
+        (
+          Purple,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#554466\")'"
+        ),
+        (
+          Wheat,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, wheat4)'"
+        ),
+        (
+          "Dark Gray",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#333340\")'"
+        ),
+        (
+          Wine,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#400020\")'"
+        )
+      ),
+      (
+        Gradient,
+        (
+          Sunset,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(mvgradient, deepskyblue4, black, deepskyblue4, tomato4)'"
+        ),
+        (
+          Sky,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, blue4, white)'"
+        ),
+        (
+          "Blue Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#7080a5\", \"#101020\")'"
+        ),
+        (
+          "Indigo Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#746ebc\", \"#242e4c\")'"
+        ),
+        (
+          "Purple Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#654c66\", \"#151426\")'"
+        ),
+        (
+          "Wheat Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#a09060\", \"#302010\")'"
+        ),
+        (
+          "Grey Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#636380\", \"#131318\")'"
+        ),
+        (
+          "Wine Shades",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#600040\", \"#180010\")'"
+        )
+      ),
+      (
+        Images,
+        OPEN_MENU,
+        "-noext /usr/share/WindowMaker/Backgrounds $HOME/GNUstep/Library/WindowMaker/Backgrounds WITH wmsetbg -u -t"
+      )
+    ),
+    (
+      "Save Theme",
+      SHEXEC,
+      "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(Theme name)\""
+    ),
+    (
+      "Save IconSet",
+      SHEXEC,
+      "geticonset $HOME/GNUstep/Library/WindowMaker/IconSets/\"%a(IconSet name)\""
+    ),
+    (
+      "Preferences Utility",
+      EXEC,
+      "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs"
+    )
+  ),
+  (
+    Session,
+    ("Save Session", SAVE_SESSION),
+    ("Clear Session", CLEAR_SESSION),
+    ("Restart Window Maker", RESTART),
+    (Exit, EXIT)
+  )
+)
