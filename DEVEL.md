@@ -67,3 +67,10 @@ pip install pyevolve
 # Plugins
 
 - https://github.com/moddevices/caps-lv2
+
+# Debsums
+
+```
+apt-get install debsums 
+debsums --changed
+```
