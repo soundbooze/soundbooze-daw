@@ -16,7 +16,8 @@ apt-get install eq10q
 # apt-get install calf-plugins
 apt-get install tuxguitar 
 # apt-get install jamin sweep 
-apt-get install drumkv1-lv2
+apt-get install drumkv1-lv2 
+apt-get install giada
 apt-get install qjackctl a2jmidid
 apt-get install sonic-visualiser 
 apt-get install mustang-plug wmaker
