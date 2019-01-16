@@ -10,6 +10,7 @@ apt-get install audacity ardour
 apt-get install guitarix rakarrack 
 apt-get install polyphone
 apt-get install x42-plugins [multimedia-audio-plugins ***crash] 
+apt-get install wah-plugins rev-plugins ste-plugins
 apt-get install mda-lv2
 apt-get install eq10q
 # apt-get install calf-plugins
