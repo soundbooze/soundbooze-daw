@@ -1,0 +1,7 @@
+apt-get install libfltk1.3-dev
+
+https://github.com/monocasual/giada
+
+./autogen.sh
+./configure --target=linux
+make && make install
