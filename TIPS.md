@@ -11,7 +11,7 @@
 
 - Synth / CAlf
 
-  via standalone -> record -> wav <-- import to ardour ||
+  via standalone -> {jack port/connection) |  record -> wav <-- import to ardour ||
                                   <-- manual track / bus route
  - hydrogen / calf / plugins
  
