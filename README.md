@@ -1,4 +1,3 @@
-(room-level accuracy - use @your own risk)
 
 # Device Setup
 
@@ -55,11 +54,14 @@ pacmd set-default-source 4
 - simplescreenrecorder cpu load 
 - libvamp_essentia.so .. crashed
 
+(room-level accuracy - use @your own risk)
+
 ### stability test / benchmark
 
 - kernelshark
 - ftrace, perf
 - system-wide - apps -... -> pi
+- iperf (daw , netjack cluster)
 
 ## Connections
 
@@ -96,6 +98,7 @@ pacmd set-default-source 4
 - MINIMALIST / non-redudancy
 - arduino sync / preselected apps
 - jackd session port - reconnect on spof
+- load-sharing
 
 # Packages Installation
 
