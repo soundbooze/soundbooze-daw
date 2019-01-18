@@ -18,7 +18,7 @@ apt-get install tuxguitar
 # apt-get install jamin sweep 
 apt-get install drumkv1-lv2 
 apt-get install giada
-apt-get install qjackctl a2jmidid
+apt-get install qjackctl a2jmidid qmidinet
 apt-get install sonic-visualiser 
 apt-get install mustang-plug wmaker
 ```
