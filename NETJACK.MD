@@ -28,3 +28,10 @@ jack_load netadapter
 jack_load audioadapter
 jack_connect ... ...
 ```
+### ALSA index
+
+##### /etc/modprobe.d/...conf
+
+```
+options snd_usb_audio index=0
+```
