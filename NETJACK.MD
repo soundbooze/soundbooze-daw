@@ -1,16 +1,30 @@
 ### Master
 
+##### Multicast
+
 ```
-route add -net 224.0.0.0 netmask 240.0.0.0 dev if0
+route add -net 224.0.0.0 netmask 240.0.0.0 dev enp2s0f0
+ip maddr show
+```
+
+```
 jackd
 jack_load netmanager
+jack_connect .. ...
 ```
 
 ### Slave
 
 ```
-route add -net 224.0.0.0 netmask 240.0.0.0 dev if0
+route add -net 224.0.0.0 netmask 240.0.0.0 dev enp8s0
+ip maddr show
+```
+
+##### Multicast
+
+```
 jackd -R -d net
 jack_load netadapter
 jack_load audioadapter
+jack_connect ... ...
 ```
