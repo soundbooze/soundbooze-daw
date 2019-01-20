@@ -93,6 +93,7 @@
       "jalv http://gareus.org/oss/lv2/avldrums#BlackPearl"
     ),
     ("Black Pearl Stop", SHEXEC, "kill `pgrep jalv`"),
+    (QMidinet, EXEC, qmidinet),
     (
       A2JMIDI,
       EXEC,
