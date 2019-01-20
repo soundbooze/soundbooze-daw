@@ -46,16 +46,6 @@ pacmd set-default-source 4
 - https://wiki.linuxaudio.org/wiki/system_configuration
 -
 
-### known problems:
-
-- https://www.kernel.org/doc/html/v4.17/sound/soc/pops-clicks.html
-- jack-pulse :audio clicking
-- drumgizmo xml / wav load
-- simplescreenrecorder cpu load 
-- libvamp_essentia.so .. crashed
-
-(room-level accuracy - use @your own risk)
-
 ### stability test / benchmark
 
 - kernelshark
