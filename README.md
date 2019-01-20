@@ -50,7 +50,6 @@ pacmd set-default-source 4
 
 - kernelshark
 - ftrace, perf
-- system-wide - apps -... -> pi
 - iperf (daw , netjack cluster)
 
 ## Connections
