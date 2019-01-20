@@ -23,7 +23,7 @@ ip maddr show
 ##### Multicast
 
 ```
-jackd -R -d net
+jackd -R -d net -l 0
 jack_load netadapter
 jack_load audioadapter
 jack_connect ... ...
