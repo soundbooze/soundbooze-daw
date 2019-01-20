@@ -1,0 +1,4 @@
+ps axu|egrep 'jack|pulse|calf|guitar' | awk '{ print "kill -9 " $2 }' > foo.sh
+chmod 755 foo.sh
+./foo.sh
+rm -f foo.sh
