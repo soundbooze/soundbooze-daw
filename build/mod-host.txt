@@ -1,3 +1,5 @@
+apt-get install libreadline-dev
+
 https://github.com/moddevices/mod-host
 
 make && make install
