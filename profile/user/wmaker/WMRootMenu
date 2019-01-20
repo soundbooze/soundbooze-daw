@@ -2,7 +2,7 @@
   Applications,
   (
     Applications,
-    (Xterm, EXEC, "xterm -fn 9x15 -bg black -fg grey +sb"),
+    (Tilix, EXEC, tilix),
     (Thunar, EXEC, thunar),
     ("Wing IDE", EXEC, "wing-personal6.1"),
     (Chromium, EXEC, chromium),
@@ -14,8 +14,7 @@
     (Krita, EXEC, krita),
     (Gimp, EXEC, gimp),
     (Blender, EXEC, blender),
-    (Openshot, EXEC, openshot),
-    (Weka, EXEC, "java -jar /opt/weka-3-8-3/weka.jar")
+    (Openshot, EXEC, openshot)
   ),
   (
     Audio,
@@ -79,13 +78,9 @@
   ),
   (
     Scripts,
-    (
-      Jackd,
-      EXEC,
-      "/usr/local/bin/jackd -p128 -t10000 -dalsa -r44100 -p1024 -n2 -m -S -M -D -Chw:1 -Phw:0"
-    ),
     ("PulseAudio Start", EXEC, "pulseaudio -D"),
     ("PulseAudio Stop", EXEC, "pulseaudio -k"),
+    ("Jack Netmanager", EXEC, "jack_load netmanager"),
     (
       "Red Zeppelin Start",
       EXEC,
@@ -102,7 +97,8 @@
       A2JMIDI,
       EXEC,
       "xterm -geometry 76x14+275+28 -fn 6x13 -bg black -fg grey -e a2jmidid"
-    )
+    ),
+    ("Refresh Audio", EXEC, "/home/oche/refreshAudio")
   ),
   (Run..., EXEC, "%a(Run,Type command to run:)"),
   (Workspaces, WORKSPACE_MENU),
