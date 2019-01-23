@@ -36,6 +36,11 @@
         "carla-single ladspa /usr/lib/ladspa/tap_tubewarmth.so & carla-single ladspa /usr/lib/ladspa/tap_dynamics_st.so & carla-single ladspa /usr/lib/ladspa/stereo-plugins.so"
       ),
       (Guitarix, EXEC, guitarix),
+      (
+        "Stereo IR",
+        EXEC,
+        "jalv.gtk3 http://gareus.org/oss/lv2/convoLV2#Stereo"
+      ),
       (Rakarrack, EXEC, rakarrack),
       (TuxGuitar, EXEC, tuxguitar),
       ("Fender Plug", EXEC, plug),
