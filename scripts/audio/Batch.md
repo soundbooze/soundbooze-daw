@@ -8,6 +8,7 @@ sox -c 1 -r 22050 -i in.out out.wav
 
 ```
 sox -b 16 in.out out.wav  
+ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
 ```
 
 ## trim
