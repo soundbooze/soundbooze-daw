@@ -90,6 +90,7 @@ pacmd set-default-source 4
 # Packages Installation
 
 - https://github.com/soundbooze/soundbooze-daw/blob/master/PACKAGES.md
+= https://wiki.debian.org/DebianInstaller/Modify/CD
 
 # Links
 
