@@ -3,8 +3,6 @@
 
 ![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/bingung-not.png "Home")
 
-<b>Frames/Period : 256</b>
-
 ```
 JACK
 
@@ -44,7 +42,7 @@ pacmd set-default-source 4
 - https://github.com/jackaudio/jackaudio.github.com/wiki/WalkThrough_User_PulseOnJack
 - https://linux.die.net/man/5/pulse-daemon.conf
 - https://wiki.linuxaudio.org/wiki/system_configuration
--
+- https://wiki.linuxaudio.org/wiki/list_of_jack_frame_period_settings_ideal_for_usb_interface
 
 ### stability test / benchmark
 
