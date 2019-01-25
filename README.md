@@ -1,5 +1,7 @@
 
-# Device Setup
+![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/photo.jpg "Home")
+ 
+ # Device Setup
 
 ![alt text](https://raw.githubusercontent.com/soundbooze/soundbooze-daw/master/profile/user/bingung-not.png "Home")
 
