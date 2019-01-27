@@ -65,6 +65,11 @@ pip install pyevolve
 
  - apt-get install lilypond
  
+# Faust
+
+- https://github.com/grame-cncm/faust
+- https://github.com/grame-cncm/faustlibraries
+
 # Plugins
 
 - https://github.com/moddevices/caps-lv2
