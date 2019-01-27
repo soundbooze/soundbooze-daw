@@ -2,6 +2,9 @@
 
 
 ### Hybrid (uduk.wav)
+
+- https://github.com/soundbooze/soundbooze-uduk/blob/master/sndfile/inter.c
+
 ```
  DreamTheaterBlackCloudsAndSilverLinings.wav
  ExodiaHellbringer.wav
