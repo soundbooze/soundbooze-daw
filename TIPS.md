@@ -12,10 +12,15 @@
  - ardour: minmise plugins
  - pre-processed effect via audacity
  
-- Guitarix:
+### Guitarix:
  
- minimise convolution
-
+ Latency
+ 
+ ```
+ 128
+ 256
+ ```
+ 
 - Synth / CAlf
 
   via standalone -> {jack port/connection) |  record -> wav <-- import to ardour ||
