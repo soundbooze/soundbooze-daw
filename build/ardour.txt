@@ -1,16 +1,8 @@
 apt-get install libsndfile-dev libboost-all-dev libglibmm* libcurl4-openssl-dev liblo-dev libasound* liblilv-dev
 apt-get install libarchive-dev libaubio-dev libxml2-dev libpangomm* liblrdf-dev libsuil-dev
 apt-get install liblv2* lv2-dev libserd-dev libsord-dev libsratom-dev libgtkmm* libjack-jackd2-dev
- apt-get install libtag1-dev 
-./waf configure --with-backends alsa,jack --optimize vamp-plugin-sdk librubberband-dev  libsamplerate-dev
+apt-get install libtag1-dev 
+ 
+./waf configure --with-backends alsa,jack --optimize #vamp-plugin-sdk librubberband-dev  libsamplerate-dev
 ./waf
 ./waf install
-
-
-
-
-
-
-
-
-
