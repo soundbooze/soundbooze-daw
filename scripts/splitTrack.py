@@ -8,7 +8,7 @@ class PlaybackThread (threading.Thread):
       self.threadID = threadID
       self.name = name
    def run(self):
-      playback = "jack_capture -p 'PulseAudio JACK Sink:front*' -f wav playback.wav" 
+      playback = "jack_capture -p 'PulseAudio JACK Sink:front*' -f wav playback.wav > /dev/null 2>&1" 
       os.system(playback)
 
 class GuitarThread (threading.Thread):
@@ -18,7 +18,7 @@ class GuitarThread (threading.Thread):
       self.threadID = threadID
       self.name = name
    def run(self):
-      guitar = "jack_capture -p jack_thru:output* -f wav guitar.wav"
+      guitar = "jack_capture -p jack_thru:output* -f wav guitar.wav > /dev/null 2>&1"
       os.system(guitar)
 
 os.system("rm -f *.wav")
