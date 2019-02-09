@@ -29,4 +29,6 @@
  
   via standalone -> record -> wav <-- import to ardour
   
- - Desktop (lightweight) i.e: wmaker
+### Desktop 
+
+- (lightweight) i.e: wmaker
