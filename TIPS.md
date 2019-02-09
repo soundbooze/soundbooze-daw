@@ -1,6 +1,13 @@
 # Tips
 
-- Ardour: 
+### Ardour: 
+ 
+ - jackd : 
+ 
+ ```
+ Frames/Period: 256
+ Periods/Buffer: 6
+ ```
  
  - ardour: minmise plugins
  - pre-processed effect via audacity
