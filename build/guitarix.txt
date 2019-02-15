@@ -3,6 +3,7 @@
  apt-get install libeigen3-dev libbluetooth-dev
  apt-get install libsndfile-dev libglibmm-2.4-dev libcurl4-openssl-dev libgtkmm-2.4-dev liblrdf-dev liblilv-dev libboost-system-dev  libboost-iostreams-dev
 
+# headless configure
 # ./waf configure --no-avahi --no-bluez --no-lv2 --no-faust  --disable-nls
 
 ./waf configure --ladspa --new-ladspa --mod-lv2 
