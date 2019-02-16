@@ -83,9 +83,8 @@ pacmd set-default-source 4
 - STABility
 - PERFormance
 - minimise playBack clicks/pops
-- raspberry PI preselected 
 - MINIMALIST / non-redudancy
-- arduino sync / preselected apps
+- arduino sync
 - jackd session port - reconnect on spof
 - load-sharing
 
