@@ -1,4 +1,4 @@
-apt-get install mingw-w64-x86-64-dev mingw-w64-i686-dev mingw-w64-tools g++-mingw-w64 g++-mingw-w64-i686  binutils-mingw-w64-x86-4 binutils-mingw-w64-i686 mingw-w64 mingw-w64-common gcc-mingw-w64  gcc-mingw-w64-i686  gcc-mingw-w64-x86-64  g++-mingw-w64-x86-64  g++-mingw-w64-i686
+apt-get install mingw-w64-x86-64-dev mingw-w64-i686-dev mingw-w64-tools g++-mingw-w64 g++-mingw-w64-i686  binutils-mingw-w64-x86-64 binutils-mingw-w64-i686 mingw-w64 mingw-w64-common gcc-mingw-w64  gcc-mingw-w64-i686  gcc-mingw-w64-x86-64  g++-mingw-w64-x86-64  g++-mingw-w64-i686
 
 apt-get install python3-rdflib
 
