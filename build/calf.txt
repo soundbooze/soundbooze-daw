@@ -1,4 +1,4 @@
  apt-get install libfluidsynth-dev
 
-./autogen.sh && ./configure
+./autogen.sh && ./configure --enable-sse
 make && make install
