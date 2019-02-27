@@ -106,21 +106,6 @@ apt search soundfont
 - https://www.polyphone-soundfonts.com/en/download
 - https://github.com/brummer10/GxReverseDelay.lv2
 
-# Software & Updates -> mirror list
-
-```
-# cat /etc/apt/sources.list
-
-...
-
-deb http://http.debian.net/debian/ stretch main contrib non-free
-deb http://ftp.debian.org/debian stretch-backports main
-deb http://deb.opera.com/opera-stable/ stable non-free
-
-# apt-get install opera-stable tilix
-
-```
-
 # Misc
 
 ```
@@ -161,6 +146,21 @@ headerbar.default-decoration button.titlebutton {
 # Backports
 
 - https://backports.debian.org/Instructions/
+
+# Software & Updates -> mirror list
+
+```
+# cat /etc/apt/sources.list
+
+...
+
+deb http://http.debian.net/debian/ stretch main contrib non-free
+deb http://ftp.debian.org/debian stretch-backports main
+deb http://deb.opera.com/opera-stable/ stable non-free
+
+# apt-get install opera-stable tilix
+
+```
 
 # FIRMWARE
 
