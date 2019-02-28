@@ -73,6 +73,7 @@ pip install pyevolve
 # Plugins
 
 - https://github.com/moddevices/caps-lv2
+- https://github.com/MTG/miredu
 
 # Debsums
 
