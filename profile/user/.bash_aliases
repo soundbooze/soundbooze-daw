@@ -1,3 +1,6 @@
+export LESSHISTFILE=/dev/null
+export HISTFILE=/dev/null
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -9,6 +12,9 @@ alias df='df -h'
 alias blk='lsblk'
 alias free='free -m'
 alias uname='uname -ap'
+
+alias vim='vim -i NONE'
+alias sysinfo='procinfo && iostat && vmstat && mpstat -P ALL && pidstat'
 
 alias set-sink="pacmd set-default-sink "
 alias set-source="pacmd set-default-source "
