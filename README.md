@@ -34,11 +34,6 @@ pacmd set-default-sink 1
 pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
 pacmd set-default-source 4
 
-## audacity - custom hw: / [jack]
-
-## jamin : app -> qjackctl -> jamin -> speakerOut
-
-## ardour [jack]
 </pre>
 
 ### stability test / benchmark
