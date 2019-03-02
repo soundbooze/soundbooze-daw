@@ -1,0 +1,21 @@
+https://drumgizmo.org/wiki/doku.php?id=getting_drumgizmo
+
+apt-get install \
+  build-essential \
+  autoconf \
+  automake \
+  libtool \
+  lv2-dev \
+  xorg-dev \
+  libsndfile1-dev \
+  libzita-resampler-dev \
+  libexpat-dev
+  
+  apt-get install \
+  libjack-jackd2-dev \
+  libsmf-dev \
+  libasound2-dev
+  
+  ./configure --enable-lv2 --enable-cli
+  make
+  make install
