@@ -1,0 +1,8 @@
+https://github.com/openAVproductions/openAV-ArtyFX
+
+apt-get install libcairo-dev lv2-dev
+ 
+meson build_dir
+cd build_dir
+ninja
+ninja install
