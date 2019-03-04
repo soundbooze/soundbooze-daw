@@ -15,7 +15,7 @@ apt-get install mda-lv2
 apt-get install eq10q
 # apt-get install calf-plugins
 apt-get install tuxguitar 
-# apt-get install jamin sweep 
+# apt-get install jamin sweep ecasound ecatools
 apt-get install drumkv1-lv2 
 apt-get install giada invada-studio-plugins-ladspa
 apt-get install qjackctl a2jmidid qmidinet
