@@ -32,6 +32,10 @@ pip install magenta
 pip install pyevolve
 ```
 
+# FASST
+
+- http://fasst.gforge.inria.fr/build-linux.html
+
 ### pybrain (non-pip)
 
 ```
