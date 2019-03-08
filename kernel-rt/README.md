@@ -44,6 +44,7 @@ make install
 - https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/worstcaselatency
 - http://www.alsa-project.org/main/index.php/Test_latency.c
 - https://wiki.linuxaudio.org/wiki/jack_latency_tests
+- http://www.osadl.org/Create-a-latency-plot-from-cyclictest-hi.bash-script-for-latency-plot.0.html
 
 ## /etc/sysctl.conf
 
