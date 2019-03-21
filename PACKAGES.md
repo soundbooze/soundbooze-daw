@@ -19,6 +19,7 @@ apt-get install eq10q
 apt-get install tuxguitar 
 # apt-get install jamin sweep ecasound ecatools
 apt-get install drumkv1-lv2 
+apt-get install so-synth-lv2 swh-lv2
 apt-get install giada invada-studio-plugins-ladspa
 apt-get install qjackctl a2jmidid qmidinet qmidiarp
 apt-get install sonic-visualiser 
