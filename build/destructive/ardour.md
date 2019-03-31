@@ -46,6 +46,8 @@ Editor::audacity_region ()
 	}
 }
 
+```
+
 - ardour.menus.in
   - RegionMenu
   - PopupRegionMenu
@@ -54,13 +56,13 @@ Editor::audacity_region ()
 - trx.menus.in
  
  <menuitem action='audacity-region'/>
-```
+
+## CSCOPE keywords
 
 ### AUDIO
 
-keywords:
-Rename...
-Reverse 
+- Rename...
+- Reverse 
 
 ### MIDI
 
