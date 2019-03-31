@@ -1,7 +1,8 @@
-##Destructive patches
+## Destructive patches
 
-Audacity external launch - menu [patch]
+### Audacity external launch - menu [patch]
 
+```
 gtk2_ardour/
 - editor.h
 - editor.cc
@@ -53,20 +54,19 @@ Editor::audacity_region ()
 - trx.menus.in
  
  <menuitem action='audacity-region'/>
+```
 
-AUDIO
+### AUDIO
 
 keywords:
 Rename...
 Reverse 
 
-MIDI
+### MIDI
 
-midi_region_view.cc
+- midi_region_view.cc
 
-MidiRegionView::transpose 
-MidiRegionView::change_note_note 
+- MidiRegionView::transpose 
+- MidiRegionView::change_note_note 
 
 ...
-
-UDUK ^
