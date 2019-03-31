@@ -10,11 +10,9 @@ gtk2_ardour/
 
 - editor_ops.cc
 
-/* UDUK */
+/* SESSION */
 
 #include "ardour/session_directory.h"
-
-...
 
 
 void
