@@ -1,6 +1,6 @@
 ## Destructive patches
 
-### Audacity external launch - menu [patch]
+### Audacity  
 
 ```
 gtk2_ardour/
