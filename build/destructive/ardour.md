@@ -46,6 +46,35 @@ Editor::audacity_region ()
 
 ```
 
+### MIDI EDITOR
+
+```
+void
+Editor::midieditor_region ()
+{
+	if (!_session) {
+		return;
+	}
+
+  RegionSelection rs = get_regions_from_selection_and_entered ();
+
+  gchar **dotsplit = g_strsplit ((const gchar *) rs.front()->region()->name().c_str(), ".", -1);
+
+  gchar *midieditor_cmd = g_strdup_printf("%s \"%s/%s.mid\"", "/bin/midieditor", _session->session_directory().midi_path().c_str(), dotsplit[0]);
+
+  printf("%s\n", midieditor_cmd);
+
+  g_spawn_command_line_async (midieditor_cmd, NULL);
+
+  g_strfreev(dotsplit);
+  g_free(midieditor_cmd);
+
+	if (rs.empty()) {
+		return;
+	}
+}
+```
+
 - ardour.menus.in
   - RegionMenu
   - PopupRegionMenu
