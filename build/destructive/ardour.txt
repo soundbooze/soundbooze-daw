@@ -1,3 +1,5 @@
+##Destructive patches
+
 Audacity external launch - menu [patch]
 
 gtk2_ardour/
@@ -52,8 +54,19 @@ Editor::audacity_region ()
  
  <menuitem action='audacity-region'/>
 
+AUDIO
+
 keywords:
 Rename...
 Reverse 
+
+MIDI
+
+midi_region_view.cc
+
+MidiRegionView::transpose 
+MidiRegionView::change_note_note 
+
+...
 
 UDUK ^
