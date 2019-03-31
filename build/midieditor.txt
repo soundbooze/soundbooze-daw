@@ -2,3 +2,6 @@ $ cd scripts_to_build/
 
 $ ./build_linux_gcc_x64.sh
 $ ./make_installer_linux_64.sh
+
+cd x64
+mv MidiEditor /usr/local/bin
