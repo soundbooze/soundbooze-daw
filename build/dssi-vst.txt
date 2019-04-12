@@ -16,6 +16,11 @@ DSSI_PATH /usr/local/lib/dssi
 VST_PATH  /vstdlls
 
    jack-dssi-host dssi-vst.so:MyVstPlugin.dll
-
+   vsthost "bla.dll"
+   
 ** reinstall conflict pkg
 Makefile: -> x8_64 m64
+
+dpkg --add-architecture i386 && apt-get update &&
+apt-get install wine32
+
