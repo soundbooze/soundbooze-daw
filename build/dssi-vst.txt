@@ -3,13 +3,10 @@ https://github.com/falkTX/dssi-vst
 apt-get install gcc-multilib g++-multilib
 apt-get install wine64-development-tools
 apt-get install wine64-tools wine64-development
-apt-get install wine32-development wine32-development-tools wine32-tools
 
 apt-get install libzip-dev 
 apt-get install zlib1g-dev zlibc
-
 apt-get install libjack-dev:i386
-
 apt-get install lib32z1-dev
 
 make
@@ -21,8 +18,4 @@ VST_PATH  /vstdlls
    jack-dssi-host dssi-vst.so:MyVstPlugin.dll
 
 ** reinstall conflict pkg
-
-apt-get install dssi-dev
-apt-get install dssi-example-plugins
-apt-get install dssi-host-jack
-apt-get install dssi-utils
+Makefile: -> x8_64 m64
