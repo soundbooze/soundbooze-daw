@@ -2,6 +2,7 @@
 ## MIR
 
 - https://github.com/stevetjoa/musicinformationretrieval.com
+- https://github.com/bmcfee/stanford-mir
 
 ## LIBS
 
