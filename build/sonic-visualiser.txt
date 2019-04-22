@@ -1,0 +1,14 @@
+nglakoni...
+
+capnproto
+
+clone https://github.com/capnproto/capnproto
+
+$ cd c++/
+$ autoreconf -i && ./configure && make && make install
+
+sonic-visualiser
+
+apt-get install libqt5svg5-dev
+
+$ ./configure && make && make install
