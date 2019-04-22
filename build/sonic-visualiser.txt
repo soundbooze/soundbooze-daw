@@ -12,3 +12,5 @@ sonic-visualiser
 apt-get install libqt5svg5-dev libtag1-dev
 
 $ ./configure && make && make install
+
+chmod 755 piper-vamp-simple-server vamp-plugin-load-checker
