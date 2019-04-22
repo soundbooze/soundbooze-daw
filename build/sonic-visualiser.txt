@@ -9,6 +9,6 @@ $ autoreconf -i && ./configure && make && make install
 
 sonic-visualiser
 
-apt-get install libqt5svg5-dev
+apt-get install libqt5svg5-dev libtag1-dev
 
 $ ./configure && make && make install
