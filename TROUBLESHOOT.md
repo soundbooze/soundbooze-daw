@@ -20,6 +20,7 @@
 
 ## ICONS
 
+```
 $HOME .local/share/applications
 
 [Desktop Entry]
@@ -34,3 +35,4 @@ TryExec=sonic-visualiser
 Terminal=false
 StartupNotify=true
 Icon=/usr/local/share/pixmaps/sonic-visualser.png
+```
