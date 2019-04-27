@@ -18,3 +18,19 @@
 
 (room-level accuracy - use @your own risk)
 
+## ICONS
+
+$HOME .local/share/applications
+
+[Desktop Entry]
+Name=sonic-visualiser
+Comment=sonic-visualiser
+GenericName=DAW
+Type=Application
+Categories=Music;X-Sound;Audio;
+Keywords=music;;alsa;jack;realtime;standalone;lv2;
+Exec=sonic-visualiser
+TryExec=sonic-visualiser
+Terminal=false
+StartupNotify=true
+Icon=/usr/local/share/pixmaps/sonic-visualser.png
