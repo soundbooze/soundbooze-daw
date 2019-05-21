@@ -69,6 +69,7 @@ pip install pyevolve
 - https://github.com/ZulfadhliM/python-mir/blob/master/PitchEstimation.py
 - https://github.com/LCAV/pyroomacoustics
 - http://web.mit.edu/music21/doc/moduleReference/moduleMidi.html
+- https://github.com/keunwoochoi/dl4mir
 
 # Notation
 
