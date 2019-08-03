@@ -53,6 +53,8 @@ alias record='jack_capture -d 60 -p system:playback* -f wav out.wav'
 
 alias x='startx'
 
+export PYTHONDONTWRITEBYTECODE=1
+
 alias pyhttp='cd /var/www/html && python -m SimpleHTTPServer'
 alias installtensorflow='npm -y init && npm install @tensorflow/tfjs-node'
 
