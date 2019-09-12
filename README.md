@@ -87,7 +87,7 @@ pacmd set-default-source 4
 
 - https://github.com/soundbooze/soundbooze-daw/blob/master/LINKS.md
 
-# Sample Demos
+# Guitar Tone (Sample Demos)
 
 - https://www.youtube.com/watch?v=LlPdTQrzgtM
 - https://www.youtube.com/watch?v=3jnhb_x3BAU
