@@ -1253,7 +1253,7 @@
   <param name="gonio_accuracy" value="4" />
   <param name="gonio_display" value="0" />
 </preset>
-<preset bank="0" program="0" plugin="vintagedelay" name="BeatBlender">
+<preset bank="0" program="4" plugin="vintagedelay" name="BeatBlender">
   <param name="on" value="1" />
   <param name="level_in" value="1.3491" />
   <param name="level_out" value="1" />
@@ -1282,5 +1282,25 @@
   <param name="ms" value="500" />
   <param name="hz" value="2" />
   <param name="bpm_host" value="120" />
+</preset>
+<preset bank="0" program="0" plugin="multispread" name="Shred-Hi">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="7.00733e-07" />
+  <param name="meter_inR" value="3.54266e-07" />
+  <param name="meter_outL" value="8.20886e-07" />
+  <param name="meter_outR" value="3.41703e-07" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mono" value="0" />
+  <param name="filters" value="2" />
+  <param name="amount0" value="1.82008" />
+  <param name="amount1" value="2.1495" />
+  <param name="amount2" value="2.71321" />
+  <param name="amount3" value="0.450001" />
+  <param name="intensity" value="1" />
 </preset>
 </presets>
