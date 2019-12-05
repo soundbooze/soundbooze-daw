@@ -2,4 +2,6 @@ apt-get install libreadline-dev
 
 https://github.com/moddevices/mod-host
 
+# htonl(INADDR_LOOPBACK);
+
 make && make install
