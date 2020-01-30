@@ -1,0 +1,9 @@
+https://github.com/sadko4u/lsp-plugins
+
+#documentation
+apt-get install php
+
+make clean
+make
+# make BUILD_MODULES='lv2 vst doc'
+make install
