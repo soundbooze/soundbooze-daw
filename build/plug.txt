@@ -1,4 +1,4 @@
-https://bitbucket.org/piorekf/plug/wiki/Home
+https://bitbucket.org/piorekf/plug/src/default/
 
 apt-get install libusb-1.0-0-dev
  
