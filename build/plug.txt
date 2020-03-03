@@ -1,5 +1,7 @@
 https://bitbucket.org/piorekf/plug/wiki/Home
 
+apt-get install libusb-1.0-0-dev
+ 
 $ qmake plug.pro
 $ make
 $ make install
