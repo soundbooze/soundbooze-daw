@@ -2,12 +2,16 @@
 
 - https://wiki.debian.org/Wine
 
-winecfg
+```
+winecfg (Windows 10)
+```
 
-netjack
--
+### netjack
 
-vst wine
+- vst3 wine (carla)
 - http://www.hermannseib.com/english/vsthost.htm
-
 - https://www.powerdrumkit.com/
+
+- [x] EZDrummer 2
+- [x] FabFilter
+- [x] FL Studio 20.
