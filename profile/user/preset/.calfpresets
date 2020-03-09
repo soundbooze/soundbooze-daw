@@ -1283,7 +1283,7 @@
   <param name="hz" value="2" />
   <param name="bpm_host" value="120" />
 </preset>
-<preset bank="0" program="0" plugin="multispread" name="Shred-Hi">
+<preset bank="0" program="2" plugin="multispread" name="Shred-Hi">
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
@@ -1302,5 +1302,38 @@
   <param name="amount2" value="2.71321" />
   <param name="amount3" value="0.450001" />
   <param name="intensity" value="1" />
+</preset>
+<preset bank="0" program="0" plugin="multibandenhancer" name="pro-q-ac-mudremoval-2">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="9.45247e-05" />
+  <param name="meter_inR" value="9.45247e-05" />
+  <param name="meter_outL" value="6.3138e-05" />
+  <param name="meter_outR" value="6.3138e-05" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="freq0" value="174.665" />
+  <param name="freq1" value="652.763" />
+  <param name="freq2" value="2036.45" />
+  <param name="mode" value="1" />
+  <param name="base0" value="0" />
+  <param name="base1" value="0" />
+  <param name="base2" value="0" />
+  <param name="base3" value="0" />
+  <param name="drive0" value="0" />
+  <param name="drive1" value="0" />
+  <param name="drive2" value="0" />
+  <param name="drive3" value="0" />
+  <param name="blend0" value="0" />
+  <param name="blend1" value="0" />
+  <param name="blend2" value="0" />
+  <param name="blend3" value="0" />
+  <param name="solo0" value="0" />
+  <param name="solo1" value="0" />
+  <param name="solo2" value="0" />
+  <param name="solo3" value="0" />
 </preset>
 </presets>
