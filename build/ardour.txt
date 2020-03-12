@@ -9,4 +9,6 @@ apt-get install libtag1-dev librubberband-dev libsample-rate-dev
 
 # VST
 
+apt-get install libfst-dev
+
 ./waf configure --with-backends alsa,jack --optimize --windows-vst
