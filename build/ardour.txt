@@ -8,7 +8,8 @@ apt-get install libtag1-dev librubberband-dev libsample-rate-dev
 ./waf install
 
 # VST
-
-apt-get install libfst-dev
+# http://lists.ardour.org/pipermail/ardour-users-ardour.org/2006-July/018715.html
 
 ./waf configure --with-backends alsa,jack --optimize --windows-vst
+
+ardourvst6
