@@ -2,6 +2,8 @@ https://www.zrythm.org/en/download.html
 
 dpkg -i https://packages.debian.org/sid/all/meson/download
 
+    # python3 ../[source]meson-0.53.2/meson.py build
+      
     meson build
     ninja -C build
     ninja -C build install
