@@ -66,6 +66,8 @@ alias ctags='ctags -R *'
 alias initCscope="echo find . -name "*.c" -o -name "*.h" > cscope.files"
 alias buildCscope="cscope -q -R -b -i cscope.files"
 
+alias explorer='wine ~/.wine/drive_c/windows/explorer.exe &'
+
 if [ -f `which powerline-daemon` ]; then
   powerline-daemon -q
   POWERLINE_BASH_CONTINUATION=1
