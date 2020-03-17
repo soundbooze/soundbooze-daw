@@ -1,3 +1,10 @@
+### INSTALL
+
+```
+dd if=debian-10.3.0-amd64-netinst.iso of=/dev/sdc bs=4M; sync
+mount /dev/sdb1 /cdrom
+```
+
 ### Force jackd to start
 
 ```
