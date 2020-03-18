@@ -15,6 +15,8 @@ wpa_supplicant -Dnl80211 -B -c ./key -iwlp1s0
 dhclient wlp1s0
 ```
 
+- https://wiki.debian.org/SourcesList
+
 ### Tools
 
 ```
