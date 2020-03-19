@@ -68,14 +68,12 @@ $ pactl set-default-source jack_in
 
 # List play device
 
-'''
+```
 pacmd list-sinks | grep -e 'name:' -e 'index:'
-pacmd set-default-sink <int>
-'''
+```
   
 # List record device
 
-'''
+```
 pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
-pacmd set-default-source <int>
-'''
+```
