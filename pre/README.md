@@ -51,7 +51,7 @@ systemctl disable rsyslog
 /etc/systemd/logind.conf NAutoVTs
 ```
 
-### Force jackd to start
+### Jackd Pulseaudio Routing
 
 - https://github.com/soundbooze/soundbooze-daw/tree/master/profile/user/pulse
 
@@ -62,9 +62,6 @@ $ pactl load-module module-jack-source channels=2
 $ pactl set-default-sink jack_out
 $ pactl set-default-source jack_in
 ```
-
-
-### Jackd Pulseaudio Routing
 
 #### List play device
 
