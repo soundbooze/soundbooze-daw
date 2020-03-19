@@ -5,5 +5,5 @@ ln -sf qmake qmake-qt5
 
 export PATH=$PATH:`pwd`
 
-./configure --disable-portaudio --disable-dbus
+./configure --disable-portaudio --disable-dbus --disable-xunique # solved freeze
 make && make install
