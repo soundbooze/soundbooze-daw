@@ -26,6 +26,7 @@ dhclient wlp1s0
 ```
 apt-get -y install linux-image-rt-amd64
 apt-get -y install dnsutils psutils tree vim vim-gui-common mlocate net-tools git
+apt-get install software-properties-common
 apt-get -y install curl lynx
 ```
 
