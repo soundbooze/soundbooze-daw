@@ -21,9 +21,15 @@ dhclient wlp1s0
 
 ```
 apt-get -y install linux-image-rt-amd64
-apt-get -y install dnsutils psutils tree vim vim-gui-common mlocate net-tools
-apt-get -y install curl lynx wget
-apt-get -y install xorg wmaker firefox-esr chromium task-gnome-desktop gimp
+apt-get -y install dnsutils psutils tree vim vim-gui-common mlocate net-tools git
+apt-get -y install curl lynx
+```
+
+### X11
+
+```
+apt-get -y install xorg wmaker chromium gimp
+apt-get -y install firefox-esr task-gnome-desktop
 ```
 
 ### Audio
