@@ -24,9 +24,8 @@ export PATH=$PATH:/opt/wine-stable/bin
 ### Tested
 
 - vst3 wine (carla)
-- http://www.hermannseib.com/english/vsthost.htm
-- https://www.powerdrumkit.com/
 
 - [x] EZDrummer 2
 - [x] FabFilter
 - [x] FL Studio 20.
+- [x] MT Power Drumkit
