@@ -54,8 +54,9 @@ systemctl disable rsyslog
 ### Force jackd to start
 
 ```
-$ psaudio
-$ killall 
-
-$ /usr/bin/jackd -p128 -t10000 -dalsa -r48000 -p512 -n2 -m -D -C hw:1 -P hw:1
+$ /usr/bin/jackd -p128 -t10000 -dalsa -r48000 -p512 -n2 -m -D -C hw:USB -P hw:USB
+$ pactl load-module module-jack-sink channels=2
+$ pactl load-module module-jack-source channels=2
+$ pactl set-default-sink jack_out
+$ pactl set-default-source jack_in
 ```
