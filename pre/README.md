@@ -1,6 +1,10 @@
 ### Pre Install
 
 ```
+dd if=debian-10.3.0-amd64-netinst.iso of=/dev/sdc bs=4M; sync
+```
+
+```
 [ctrl-alt-f2] <>
 mount -t iso9660 /dev/sdb1 /cdrom
 mkdir /firmware
@@ -45,4 +49,13 @@ systemctl disable cron
 systemctl disable rsyslog
 
 /etc/systemd/logind.conf NAutoVTs
+```
+
+### Force jackd to start
+
+```
+$ psaudio
+$ killall 
+
+$ /usr/bin/jackd -p128 -t10000 -dalsa -r48000 -p512 -n2 -m -D -C hw:1 -P hw:1
 ```
