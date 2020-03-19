@@ -1,4 +1,4 @@
-apt-get install qt5-qmake libqt5*
+apt-get -y install qt5-qmake libqt5*
 
 cd /usr/lib/x86_64-linux-gnu/qt5/bin/
 ln -sf qmake qmake-qt5
