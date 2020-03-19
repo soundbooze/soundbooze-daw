@@ -1,4 +1,5 @@
- apt-get -y install libfluidsynth-dev libexpat1-dev libglib2.0-dev libgtk2.0-dev
+apt-get -y install liblilv-dev jalv lilv-util
+apt-get -y install libfluidsynth-dev libexpat1-dev libglib2.0-dev libgtk2.0-dev
 
 ./autogen.sh && ./configure --enable-sse --with-lv2
 make && make install
