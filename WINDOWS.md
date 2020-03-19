@@ -23,7 +23,7 @@ export PATH=$PATH:/opt/wine-stable/bin
 
 ### Tested
 
-- vst3 wine (carla)
+#### VST3 Wine (carla)
 
 - [x] EZDrummer 2
 - [x] FabFilter
