@@ -5,8 +5,7 @@ apt-get -y install libtag1-dev librubberband-dev libsamplerate-dev
 apt-get -y install apt-get install vamp* libvamp*
 
 ./waf configure --with-backends alsa,jack --optimize
-./waf
-./waf install
+./waf && ./waf install
 
 # VST - http://lists.ardour.org/pipermail/ardour-users-ardour.org/2006-July/018715.html
 
