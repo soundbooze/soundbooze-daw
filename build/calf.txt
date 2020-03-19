@@ -1,4 +1,4 @@
  apt-get -y install libfluidsynth-dev libexpat1-dev libglib2.0-dev
 
-./autogen.sh && ./configure --enable-sse --with-lv2
+./autogen.sh && ./configure --enable-sse
 make && make install
