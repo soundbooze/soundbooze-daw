@@ -1,9 +1,8 @@
- apt-get install libsigc++-2.0-dev libzita-convolver-dev libzita-resampler-dev gtk2-engines libwebkitgtk-1.0 intltool
- apt-get install gperf fonts-roboto libavahi-gobject-dev 
- apt-get install libeigen3-dev libbluetooth-dev
- apt-get install libglibmm-2.4-dev libgtkmm-2.4-dev liblrdf-dev liblilv-dev libboost-system-dev  libboost-iostreams-dev
-
-apt-get install desktop-file-utils python-subprocess32
+apt-get -y install libsigc++-2.0-dev libzita-convolver-dev libzita-resampler-dev gtk2-engines libwebkitgtk-1.0 intltool
+apt-get -y install gperf fonts-roboto libavahi-gobject-dev 
+apt-get -y install libeigen3-dev libbluetooth-dev
+apt-get -y install libglibmm-2.4-dev libgtkmm-2.4-dev liblrdf-dev liblilv-dev libboost-system-dev  libboost-iostreams-dev
+apt-get -y install desktop-file-utils python-subprocess32
 
 # headless configure
 # ./waf configure --no-avahi --no-bluez --no-lv2 --no-faust  --disable-nls --includeresampler --includeconvolver
