@@ -1,21 +1,19 @@
 # APT INSTALL
 
 ```
-apt-get install audacity ardour 
-apt-get install guitarix rakarrack 
+apt-get install rakarrack 
 apt-get install x42-plugins [multimedia-audio-plugins ***crash] 
 apt-get install wah-plugins rev-plugins ste-plugins
 apt-get install mda-lv2
 apt-get install eq10q
-# apt-get install calf-plugins
-apt-get install tuxguitar 
-# apt-get install jamin sweep ecasound ecatools
+apt-get install tuxguitar jamin
+# apt-get install sweep ecasound ecatools
 apt-get install drumkv1-lv2 
 apt-get install so-synth-lv2 swh-lv2
 apt-get install giada invada-studio-plugins-ladspa
 apt-get install qjackctl a2jmidid qmidinet qmidiarp
 apt-get install sonic-visualiser 
-apt-get install mustang-plug wmaker
+# apt-get install mustang-plug
 apt-get install laborejo ladish laditools
 ```
 
@@ -57,8 +55,7 @@ apt-get install rubberband-cli rubberband-vamp rubberband-ladspa vocproc
 # MIDI synth host
 
 ```
-apt-get install qsynth bristol 
-apt-get install qsampler
+apt-get install bristol qsampler
 apt-get install jack-keyboard
 
 apt-get install cecilia
