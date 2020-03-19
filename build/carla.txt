@@ -1,8 +1,6 @@
 apt-get -y install mingw-w64-x86-64-dev mingw-w64-i686-dev mingw-w64-tools g++-mingw-w64 g++-mingw-w64-i686  binutils-mingw-w64-x86-64 binutils-mingw-w64-i686 mingw-w64 mingw-w64-common gcc-mingw-w64  gcc-mingw-w64-i686  gcc-mingw-w64-x86-64  g++-mingw-w64-x86-64  g++-mingw-w64-i686
 apt-get -y install python3-rdflib libmagic-dev liblo-dev
-apt-get -y install python3-pyqt5.qtsvg python3-rdflib pyqt5-dev-tools \
-  libmagic-dev liblo-dev libasound2-dev libpulse-dev libx11-dev \
-  libgtk2.0-dev libgtk-3-dev libqt4-dev qtbase5-dev libfluidsynth-dev
+apt-get -y install python3-pyqt5.qtsvg python3-rdflib pyqt5-dev-tools libmagic-dev liblo-dev libasound2-dev libpulse-dev libx11-dev libgtk2.0-dev libgtk-3-dev libqt4-dev qtbase5-dev libfluidsynth-dev
 
 https://github.com/falkTX/Carla
 
