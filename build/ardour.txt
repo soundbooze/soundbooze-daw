@@ -2,7 +2,6 @@ apt-get install -y libsndfile-dev libboost-all-dev libglibmm* libcurl4-openssl-d
 apt-get install -y libarchive-dev libaubio-dev libxml2-dev libpangomm* liblrdf-dev libsuil-dev
 apt-get install -y liblv2* lv2-dev libserd-dev libsord-dev libsratom-dev libgtkmm* libjack-jackd2-dev
 apt-get install -y libtag1-dev librubberband-dev libsamplerate-dev
- 
 apt-get install -y apt-get install vamp* libvamp*
 
 ./waf configure --with-backends alsa,jack --optimize
