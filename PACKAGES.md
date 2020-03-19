@@ -1,6 +1,3 @@
-
-- https://www.debian.org/doc/manuals/apt-howto/ch-sourcehandling.en.html
-
 # APT INSTALL
 
 ```
