@@ -8,9 +8,7 @@ apt-get -y install apt-get install vamp* libvamp*
 ./waf
 ./waf install
 
-# VST
-# http://lists.ardour.org/pipermail/ardour-users-ardour.org/2006-July/018715.html
+# VST - http://lists.ardour.org/pipermail/ardour-users-ardour.org/2006-July/018715.html
 
-./waf configure --with-backends alsa,jack --optimize --windows-vst
-
-ardourvst6
+$ ./waf configure --with-backends alsa,jack --optimize --windows-vst
+$ ardourvst6
