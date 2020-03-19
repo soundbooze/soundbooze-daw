@@ -1,15 +1,9 @@
 https://drumgizmo.org/wiki/doku.php?id=getting_drumgizmo
 
-apt-get install \
-  xorg-dev \
-  libzita-resampler-dev \
-  libexpat-dev
+apt-get install libzita-resampler-dev libexpat-dev
   
-  apt-get install \
-  libjack-jackd2-dev \
-  libsmf-dev \
-  libasound2-dev
+apt-get install libjack-jackd2-dev libsmf-dev libasound2-dev
   
-  ./configure --enable-lv2 --enable-cli
-  make
-  make install
+./configure --enable-lv2 --enable-cli
+make
+make install
