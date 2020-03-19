@@ -23,8 +23,7 @@ apt-get install laborejo ladish laditools
 # Host
 
 ```
-apt-get install jalv
-apt-get lilv-utils  <--- lv2ls
+apt-get install jalv lilv-utils 
 ```
 
 # Video
