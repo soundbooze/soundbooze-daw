@@ -34,14 +34,14 @@ apt-get -y install curl lynx
 ### X11
 
 ```
-apt-get -y install xorg wmaker chromium gimp
+apt-get -y install xorg wmaker chromium gimp dbus-x11
 apt-get -y install firefox-esr task-gnome-desktop
 ```
 
 ### Audio
 
 ```
-apt-get -y install jackd2 qjackctl jack-capture pulseaudio pulseaudio-module-jack alsa-utils dbus-x11
+apt-get -y install jackd2 qjackctl jack-capture pulseaudio pulseaudio-module-jack alsa-utils libasound2-dev
 ```
 
 ### Post
