@@ -1,5 +1,5 @@
 
-apt-get cmake install libwxgtk3.0-dev libflac-dev libmp3lame-dev libvorbis-dev
+apt-get -y install cmake libwxgtk3.0-dev libflac-dev libmp3lame-dev libvorbis-dev
 
-./configure --disable-nls  --with-lame --with-libflac --with-libid3tag --with-libmad --with-libsndfile --with-libvamp --with-libvorbis --with-lv2 
+./configure --disable-nls --with-lame --with-libflac --with-libid3tag --with-libmad --with-libsndfile --with-libvamp --with-libvorbis --with-lv2 
 make && make install
