@@ -23,19 +23,6 @@ ALSA (additional USB guitar cable)
 Note: For reference, ALSA stores its settings in /var/lib/alsa/asound.state
 ```
 
-<pre>
-# play device
-
-pacmd list-sinks | grep -e 'name:' -e 'index:'
-pacmd set-default-sink 1 
-
-# record device
-
-pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
-pacmd set-default-source 4
-
-</pre>
-
 ### stability test / benchmark
 
 - kernelshark
