@@ -34,7 +34,7 @@ apt-get -y install curl lynx
 ### X11
 
 ```
-apt-get -y install xorg wmaker chromium firefox-esr gimp dbus-x11
+apt-get -y install xorg xorg-dev wmaker chromium firefox-esr gimp dbus-x11
 ```
 
 ### Audio
