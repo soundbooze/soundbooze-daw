@@ -148,25 +148,6 @@ headerbar.default-decoration button.titlebutton {
  systemctl disable polkit | iio-sensor-proxy | upower
  systemctl stop polkit | iio-sensor-proxy | upower
  ```
- 
-# Backports
-
-- https://backports.debian.org/Instructions/
-
-# Software & Updates -> mirror list
-
-```
-# cat /etc/apt/sources.list
-
-...
-
-deb http://http.debian.net/debian/ stretch main contrib non-free
-deb http://ftp.debian.org/debian stretch-backports main
-deb http://deb.opera.com/opera-stable/ stable non-free
-
-# apt-get install opera-stable tilix
-
-```
 
 # 3rd-party
 
