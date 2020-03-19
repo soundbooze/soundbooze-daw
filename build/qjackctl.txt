@@ -5,6 +5,5 @@ ln -sf qmake qmake-qt5
 
 export PATH=$PATH:`pwd`
 
-./autogen.sh
 ./configure --disable-portaudio --disable-dbus
 make && make install
