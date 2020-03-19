@@ -53,6 +53,8 @@ systemctl disable rsyslog
 
 ### Force jackd to start
 
+- https://github.com/soundbooze/soundbooze-daw/tree/master/profile/user/pulse
+
 ```
 $ /usr/bin/jackd -p128 -t10000 -dalsa -r48000 -p512 -n2 -m -D -C hw:USB -P hw:USB
 $ pactl load-module module-jack-sink channels=2
