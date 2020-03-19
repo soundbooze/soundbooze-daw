@@ -62,3 +62,20 @@ $ pactl load-module module-jack-source channels=2
 $ pactl set-default-sink jack_out
 $ pactl set-default-source jack_in
 ```
+
+
+### Jackd Pulseaudio Routing
+
+# List play device
+
+'''
+pacmd list-sinks | grep -e 'name:' -e 'index:'
+pacmd set-default-sink <int>
+'''
+  
+# List record device
+
+'''
+pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
+pacmd set-default-source <int>
+'''
