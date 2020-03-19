@@ -2,6 +2,7 @@
 
 ```
 apt-get install rakarrack 
+apt-get install aliki zita-rev1 zita-mu1
 apt-get install x42-plugins [multimedia-audio-plugins ***crash] 
 apt-get install wah-plugins rev-plugins ste-plugins
 apt-get install mda-lv2
