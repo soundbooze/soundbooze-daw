@@ -42,8 +42,7 @@ apt-get -y install firefox-esr task-gnome-desktop
 
 ```
 apt-get -y install jackd2 qjackctl jack-capture pulseaudio pulseaudio-module-jack
-apt-get -y install alsa-utils libasound2-dev
-apt-get -y install libsndfile-dev libsamplerate-dev
+apt-get -y install alsa-utils
 ```
 
 ### Post
