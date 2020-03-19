@@ -66,13 +66,13 @@ $ pactl set-default-source jack_in
 
 ### Jackd Pulseaudio Routing
 
-# List play device
+#### List play device
 
 ```
 pacmd list-sinks | grep -e 'name:' -e 'index:'
 ```
   
-# List record device
+#### List record device
 
 ```
 pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
