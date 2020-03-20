@@ -1,5 +1,7 @@
 # APT INSTALL
 
+- https://packages.debian.org/stretch/unrar
+
 ```
 apt-get install rakarrack 
 apt-get install aliki zita-rev1 zita-mu1
