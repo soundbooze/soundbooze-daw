@@ -20,12 +20,3 @@ apt-get install --install-recommends winehq-stable
 export PATH=$PATH:/opt/wine-stable/bin
 
 ```
-
-### Tested
-
-#### VST3 Wine (carla)
-
-- [x] EZDrummer 2
-- [x] FabFilter
-- [x] FL Studio 20.
-- [x] MT Power Drumkit
