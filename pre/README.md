@@ -28,7 +28,7 @@ apt-get -y install linux-image-rt-amd64
 apt-get -y install dnsutils psutils tree psmisc vim vim-gui-common mlocate net-tools git 
 apt-get -y install build-essential autoconf automake libtool
 apt-get -y install software-properties-common apt-transport-https
-apt-get -y install curl lynx
+apt-get -y install curl lynx procinfo sysstat
 apt-get install cscope ctags cflow
 ```
 
