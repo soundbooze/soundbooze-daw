@@ -1,8 +1,8 @@
 apt-get -y install libsndfile-dev libboost-all-dev libglibmm* libcurl4-openssl-dev liblo-dev libasound* liblilv-dev
 apt-get -y install libarchive-dev libaubio-dev libxml2-dev libpangomm* liblrdf-dev libsuil-dev
 apt-get -y install liblv2* lv2-dev libserd-dev libsord-dev libsratom-dev libgtkmm* libjack-jackd2-dev
-apt-get -y install libtag1-dev librubberband-dev libsamplerate-dev
-apt-get -y install vamp* libvamp* libfftw3-dev
+apt-get -y install libtag1-dev librubberband-dev libsamplerate-dev  libsamplerate*
+apt-get -y install vamp* libvamp* libfftw3-dev xjadeo
 
 ./waf configure --with-backends alsa,jack --optimize
 ./waf && ./waf install
