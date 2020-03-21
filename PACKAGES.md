@@ -106,7 +106,7 @@ apt search soundfont
 # Misc
 
 ```
-apt-get install oxygencursors thunar
+apt-get install oxygencursors thunar transmission
 ```
 
 ## Unused
