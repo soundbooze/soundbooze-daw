@@ -9,7 +9,6 @@
     (VLC, EXEC, vlc),
     (GVim, EXEC, gvim),
     ("Screen Recorder", EXEC, simplescreenrecorder),
-    ("Green Recorder", EXEC, "green-recorder"),
     (Krita, EXEC, krita),
     (Gimp, EXEC, gimp),
     (Blender, EXEC, blender),
