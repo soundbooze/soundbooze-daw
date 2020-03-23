@@ -65,14 +65,9 @@ Note: For reference, ALSA stores its settings in /var/lib/alsa/asound.state
 - jackd session port - reconnect on spof
 - load-sharing
 
-# Packages Installation
-
-- https://github.com/soundbooze/soundbooze-daw/blob/master/PACKAGES.md
-- https://wiki.debian.org/DebianInstaller/Modify/CD
-
 # Links
 
-- https://github.com/soundbooze/soundbooze-daw/blob/master/LINKS.md
+- https://wiki.debian.org/DebianInstaller/Modify/CD
 
 # Guitar Tone (Sample Demos)
 
