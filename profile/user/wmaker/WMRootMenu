@@ -4,7 +4,6 @@
     Applications,
     (Tilix, EXEC, tilix),
     (Thunar, EXEC, thunar),
-    ("Wing IDE", EXEC, "wing-personal6.1"),
     (Chromium, EXEC, chromium),
     (Firefox, EXEC, "firefox-esr"),
     (VLC, EXEC, vlc),
