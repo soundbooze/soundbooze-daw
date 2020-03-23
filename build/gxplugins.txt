@@ -1,0 +1,8 @@
+https://github.com/brummer10/GxPlugins.lv2
+
+apt-get -y install libc6-dev libcairo2-dev libx11-dev x11proto-core-dev lv2-dev
+
+$ git submodule init
+$ git submodule update
+# make
+# make install
