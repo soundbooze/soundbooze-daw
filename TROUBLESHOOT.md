@@ -6,6 +6,10 @@
 
 ### known problems:
 
+Evolution
+
+- https://askubuntu.com/questions/480753/remove-evolution-calendar-factory-from-startup
+
 - https://www.kernel.org/doc/html/v4.17/sound/soc/pops-clicks.html
 - libvamp_essentia.so .. crashed
 
