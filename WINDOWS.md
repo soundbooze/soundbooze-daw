@@ -1,6 +1,7 @@
 # LESS PRIORITY
 
 - https://wiki.debian.org/Wine
+- https://wiki.winehq.org/Debian
 
 ```
 winecfg (Windows 10)
@@ -19,4 +20,9 @@ apt-get install --install-recommends winehq-stable
 
 export PATH=$PATH:/opt/wine-stable/bin
 
+```
+## Upgrade 5.4
+
+```
+apt install --install-recommends winehq-staging
 ```
