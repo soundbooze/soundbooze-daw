@@ -21,6 +21,12 @@ apt-get install laborejo ladish laditools
 apt-get install jalv lilv-utils 
 ```
 
+# JUCE
+
+```
+apt-get install libjuce* juce*
+```
+
 # Video
 
 ```
