@@ -1,1 +1,2 @@
+https://github.com/grame-cncm/faust
 make && make install
