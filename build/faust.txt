@@ -1,2 +1,2 @@
-https://github.com/grame-cncm/faust
+git clone --recursive https://github.com/grame-cncm/faust
 make && make install
