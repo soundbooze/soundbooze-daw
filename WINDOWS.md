@@ -21,8 +21,8 @@ apt-get install --install-recommends winehq-stable
 export PATH=$PATH:/opt/wine-stable/bin
 
 ```
-## Upgrade 5.4
+## Upgrade 5.5
 
 ```
-apt install --install-recommends winehq-staging
+apt install --install-recommends winehq-devel
 ```
