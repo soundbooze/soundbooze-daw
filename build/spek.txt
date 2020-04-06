@@ -2,5 +2,5 @@
     
     git clone git://github.com/alexkay/spek.git
     cd spek
-    /autogen.sh
-    make
+    ./autogen.sh
+    make && make install
