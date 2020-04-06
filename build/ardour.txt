@@ -3,6 +3,7 @@ apt-get -y install libarchive-dev libaubio-dev libxml2-dev libpangomm* liblrdf-d
 apt-get -y install liblv2* lv2-dev libserd-dev libsord-dev libsratom-dev libgtkmm* libjack-jackd2-dev
 apt-get -y install libtag1-dev librubberband-dev libsamplerate-dev libudev-dev
 apt-get -y install vamp* libvamp* libfftw3-dev xjadeo libusb-1.0-0-dev
+apt-get -y install libcwiid-dev libcppunit-dev clang
 
 ./waf configure --with-backends alsa,jack --optimize
 ./waf && ./waf install
