@@ -43,6 +43,7 @@ apt-get -y install xorg xorg-dev wmaker chromium firefox-esr gimp dbus-x11
 ```
 apt-get -y install jackd2 qjackctl jack-capture pulseaudio pulseaudio-module-jack
 apt-get -y install alsa-utils
+apt-get -y install zita-resampler zita-rev1 libzita-convolver-dev libzita-resampler-dev libzita-convolver3
 ```
 
 ### Post
