@@ -92,7 +92,7 @@ apt search soundfont
 # Misc
 
 ```
-apt-get -y install oxygencursors thunar transmission xdotool
+apt-get -y install oxygencursors thunar transmission xdotool powerline
 ```
 
 ## Unused
