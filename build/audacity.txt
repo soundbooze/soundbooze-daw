@@ -1,4 +1,5 @@
-apt-get -y install cmake libwxgtk3.0-dev libflac-dev libmp3lame-dev libvorbis-dev
+apt-get -y install cmake libwxgtk3.0-dev libflac-dev libmp3lame-dev libvorbis-dev 
+apt-get -y install libsoxr-dev sox
 
 ./configure --disable-nls --with-lame --with-libflac --with-libid3tag --with-libmad --with-libsndfile --with-libvamp --with-libvorbis --with-lv2 
 make && make install
