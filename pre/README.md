@@ -8,7 +8,7 @@ dd if=debian-10.3.0-amd64-netinst.iso of=/dev/sdc bs=4M; sync
 [ctrl-alt-f2] <>
 mount -t iso9660 /dev/sdb1 /cdrom
 mkdir /firmware
-mount /dev/sdd /mnt && mount /dev/sdd1 /mnt
+(mount /dev/sdd /mnt) && mount -t ext4 /dev/sdd1 /mnt
 cp /mnt/firmware-iwlwifi.deb /firmware
 ```
 
@@ -50,8 +50,9 @@ apt-get -y install alsa-utils
 ```
 systemctl disable cron
 systemctl disable rsyslog
+systemctl disable polkit
 
-/etc/systemd/logind.conf NAutoVTs
+/etc/systemd/logind.conf ReserveVT=2
 ```
 
 ### Jackd Pulseaudio Routing
