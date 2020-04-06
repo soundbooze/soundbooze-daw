@@ -3,48 +3,42 @@
 - https://packages.debian.org/stretch/unrar
 
 ```
-apt-get install rakarrack 
-apt-get install aliki zita-rev1 zita-mu1
-apt-get install x42-plugins zam-plugins [multimedia-audio-plugins ***crash] 
-apt-get install wah-plugins rev-plugins ste-plugins
-apt-get install mda-lv2
-apt-get install eq10q
-apt-get install tuxguitar jamin
-apt-get install sweep ecasound ecatools
-apt-get install drumkv1-lv2 
-apt-get install so-synth-lv2 swh-lv2
-apt-get install giada invada-studio-plugins-ladspa
-apt-get install a2jmidid qmidinet qmidiarp
-apt-get install sonic-visualiser 
-apt-get install mustang-plug
-apt-get install laborejo ladish laditools
-apt-get install jalv lilv-utils 
+apt-get -y install rakarrack 
+apt-get -y install aliki zita-rev1 zita-mu1
+apt-get -y install x42-plugins zam-plugins #[multimedia-audio-plugins ***crash] 
+apt-get -y install wah-plugins rev-plugins ste-plugins
+apt-get -y install mda-lv2
+apt-get -y install eq10q
+apt-get -y install tuxguitar jamin
+apt-get -y install sweep ecasound ecatools
+apt-get -y install drumkv1-lv2 
+apt-get -y install so-synth-lv2 swh-lv2
+apt-get -y install giada invada-studio-plugins-ladspa
+apt-get -y install a2jmidid qmidinet qmidiarp
+apt-get -y install sonic-visualiser 
+apt-get -y install mustang-plug
+apt-get -y install laborejo ladish laditools
+apt-get -y install jalv lilv-utils 
 ```
 
 # JUCE
 
 ```
-apt-get install libjuce* juce*
+apt-get -y install libjuce* juce*
 ```
 
 # Video
 
 ```
-apt-get install vlc simplescreenrecorder
-apt-get install vlc-plugin-jack
-apt-get install openshot lives krita
-```
-
-# Faust
-
-```
-apt-get install faust faustworks
+apt-get -y install vlc simplescreenrecorder
+apt-get -y install vlc-plugin-jack
+apt-get -y install openshot lives krita
 ```
 
 # Polyphone
 
 ```
-libstk0-dev 
+apt-get -y install libstk0-dev 
 
 https://www.polyphone-soundfonts.com/en/download
 ```
@@ -52,26 +46,26 @@ https://www.polyphone-soundfonts.com/en/download
 # Rubberband
 
 ```
-apt-get install rubberband-cli rubberband-vamp rubberband-ladspa vocproc
+apt-get -y install rubberband-cli rubberband-vamp rubberband-ladspa vocproc
 ```
 
 # Synth
 
 ```
-apt-get install bristol qsampler
-apt-get install jack-keyboard
-apt-get install sonic-pi sonic-pi-samples
-apt-get install cecilia
-apt-get install csound python-pyo
-apt-get install aeolus synthv1 hexter qsynth ams
-apt-get install amsynth zynaddsubfx
-apt-get install fluidsynth sooperlooper qtractor
+apt-get -y install bristol qsampler
+apt-get -y install jack-keyboard
+apt-get -y install sonic-pi sonic-pi-samples
+apt-get -y install cecilia
+apt-get -y install csound python-pyo
+apt-get -y install aeolus synthv1 hexter qsynth ams
+apt-get -y install amsynth zynaddsubfx
+apt-get -y install fluidsynth sooperlooper qtractor
 ```
 
 # MIDI Parser
 
 ```
-apt-get install kmidimon midicsv
+apt-get -y install kmidimon midicsv
 ```
 
 https://www.midieditor.org/
@@ -79,9 +73,9 @@ https://www.midieditor.org/
 # Drum & Metronome
 
 ```
-apt-get install drumgizmo
-apt-get install hydrogen gtklick
-apt-get install tk707
+apt-get -y install drumgizmo
+apt-get -y install hydrogen gtklick
+apt-get -y install tk707
 ```
 
 # Soundfont
@@ -98,7 +92,7 @@ apt search soundfont
 # Misc
 
 ```
-apt-get install oxygencursors thunar transmission
+apt-get -y install oxygencursors thunar transmission
 ```
 
 ## Unused
@@ -124,13 +118,6 @@ headerbar.default-decoration button.titlebutton {
   min-height: 0px;
 }
 ```
-
-## Disable Services
-
-```
- systemctl disable polkit | iio-sensor-proxy | upower
- systemctl stop polkit | iio-sensor-proxy | upower
- ```
 
 # 3rd-party
 
