@@ -14,7 +14,7 @@ apt-get install sweep ecasound ecatools
 apt-get install drumkv1-lv2 
 apt-get install so-synth-lv2 swh-lv2
 apt-get install giada invada-studio-plugins-ladspa
-apt-get install qjackctl a2jmidid qmidinet qmidiarp
+apt-get install a2jmidid qmidinet qmidiarp
 apt-get install sonic-visualiser 
 apt-get install mustang-plug
 apt-get install laborejo ladish laditools
