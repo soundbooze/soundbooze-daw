@@ -1,4 +1,4 @@
-apt-get -y install libreadline-dev
+apt-get -y install libreadline-dev libjack-jackd2-dev
 
 https://github.com/moddevices/mod-host
 
