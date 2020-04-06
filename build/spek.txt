@@ -1,4 +1,4 @@
-    apt-get install libavformat-dev
+    apt-get -y install libavformat-dev intltool
     
     git clone git://github.com/alexkay/spek.git
     cd spek
