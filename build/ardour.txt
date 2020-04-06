@@ -9,6 +9,5 @@ apt-get -y install libcwiid-dev libcppunit-dev clang
 ./waf && ./waf install
 
 # VST - http://lists.ardour.org/pipermail/ardour-users-ardour.org/2006-July/018715.html
-
 $ ./waf configure --with-backends alsa,jack --optimize --windows-vst
 $ ardourvst6
