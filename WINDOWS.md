@@ -1,4 +1,4 @@
-# LESS PRIORITY
+# Wine
 
 - https://wiki.debian.org/Wine
 - https://wiki.winehq.org/Debian
