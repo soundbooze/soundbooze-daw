@@ -1,4 +1,4 @@
-apt-get install libreadline-dev
+apt-get -y install libreadline-dev
 
 https://github.com/moddevices/mod-host
 
