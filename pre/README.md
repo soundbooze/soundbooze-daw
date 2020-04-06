@@ -51,7 +51,8 @@ apt-get -y install alsa-utils
 systemctl disable cron
 systemctl disable rsyslog
 systemctl disable polkit
-
+systemctl disable minissdpd
+ 
 /etc/systemd/logind.conf ReserveVT=2
 ```
 
