@@ -29,7 +29,7 @@ apt-get -y install dnsutils psutils tree psmisc vim vim-gui-common mlocate net-t
 apt-get -y install build-essential autoconf automake libtool
 apt-get -y install software-properties-common apt-transport-https
 apt-get -y install curl lynx procinfo sysstat htop
-apt-get install cscope ctags cflow strace
+apt-get -y install cscope ctags cflow strace lsod
 ```
 
 ### X11
