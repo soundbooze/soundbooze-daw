@@ -20,7 +20,7 @@ cp /mnt/firmware-iwlwifi.deb /firmware
 ```
 
 ```
- apt-get -y install lm-sensors
+ apt-get -y install hddtemp
  # hddtemp /dev/sda
 ```
 
