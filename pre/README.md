@@ -24,6 +24,13 @@ cp /mnt/firmware-iwlwifi.deb /firmware
  # hddtemp /dev/sda
 ```
 
+### Battery
+
+```
+ apt-get -y install acpitool
+ # acpi -V
+```
+
 ### Wifi
 
 ```
