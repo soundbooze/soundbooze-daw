@@ -21,6 +21,19 @@ dhclient wlp1s0
 
 - https://wiki.debian.org/SourcesList
 
+### Sources list
+
+```
+deb http://deb.debian.org/debian stretch main
+deb-src http://deb.debian.org/debian stretch main
+
+deb http://deb.debian.org/debian-security/ stretch/updates main
+deb-src http://deb.debian.org/debian-security/ stretch/updates main
+
+deb http://deb.debian.org/debian stretch-updates main
+deb https://dl.winehq.org/wine-builds/debian/ stretch main
+```
+
 ### Tools
 
 ```
