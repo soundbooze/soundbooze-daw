@@ -12,6 +12,18 @@ mkdir /firmware
 cp /mnt/firmware-iwlwifi.deb /firmware
 ```
 
+### Temperature
+
+```
+ apt-get -y install lm-sensors
+ # sensors
+```
+
+```
+ apt-get -y install lm-sensors
+ # hddtemp /dev/sda
+```
+
 ### Wifi
 
 ```
