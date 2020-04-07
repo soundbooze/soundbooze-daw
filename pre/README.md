@@ -28,7 +28,7 @@ cp /mnt/firmware-iwlwifi.deb /firmware
 
 ```
  apt-get -y install acpitool
- # acpi -V
+ # acpitool
 ```
 
 ### Wifi
