@@ -3,6 +3,20 @@
 ```
 # blkid /dev/sdb1
 ```
+### Touchpad Libinput
+
+```
+apt remove xserver-xorg-input-synaptics
+apt install xserver-xorg-input-libinput
+
+ 16 Section "InputClass"
+ 17         Identifier "libinput touchpad catchall"
+ 18         MatchIsTouchpad "on"
+ 19         MatchDevicePath "/dev/input/event*"
+ 20         Driver "libinput"
+ 21         Option "Tapping" "on"
+ 22 EndSection
+```
 
 ### known problems:
 
